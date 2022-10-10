@@ -1,0 +1,8 @@
+pages\BlueRentalPage.class
+runner\Runner.class
+pages\AmazonPage.class
+stepDefinitions\AmazonStepDefinition.class
+utilities\ConfigReader.class
+utilities\Driver.class
+pages\HotelPage.class
+pages\FaceBookPage.class

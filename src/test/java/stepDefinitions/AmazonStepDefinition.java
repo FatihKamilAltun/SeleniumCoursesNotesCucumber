@@ -15,24 +15,44 @@ public class AmazonStepDefinition {
     @Given("kullanici amazon sayfasina gider")
     public void kullaniciAmazonSayfasinaGider() {
         Driver.getDriver().get("https://amazon.com");
-        throw new io.cucumber.java.PendingException();
+
     }
 
     @Then("kullanici nutella icin arama yapar")
     public void kullaniciNutellaIcinAramaYapar() {
         amazonPage.searchBox.sendKeys("Nutella", Keys.ENTER);
-        throw new io.cucumber.java.PendingException();
+
     }
 
     @And("kullanici sonuclarin nutella icerdigini test eder")
     public void kullaniciSonuclarinNutellaIcerdiginiTestEder() {
         assert amazonPage.resultTextWE.getText().contains("Nutella");
-        throw new io.cucumber.java.PendingException();
+
     }
 
     @And("kullanici sayfayi kapatir")
     public void kullaniciSayfayiKapatir() {
         Driver.closeDriver();
-        throw new io.cucumber.java.PendingException();
+
+    }
+
+    @Then("kullanici selenium icin arama yapar")
+    public void kullaniciSeleniumIcinAramaYapar() {
+        amazonPage.searchBox.sendKeys("selenium",Keys.ENTER);
+    }
+
+    @And("kullanici sonuclarin selenium icerdigini test eder")
+    public void kullaniciSonuclarinSeleniumIcerdiginiTestEder() {
+        assert amazonPage.resultTextWE.getText().contains("selenium");
+    }
+
+    @Then("kullanici iphone icin arama yapar")
+    public void kullaniciIphoneIcinAramaYapar() {
+        amazonPage.searchBox.sendKeys("iphone",Keys.ENTER);
+    }
+
+    @And("kullanici sonuclarin iphone icerdigini test eder")
+    public void kullaniciSonuclarinIphoneIcerdiginiTestEder() {
+        assert amazonPage.resultTextWE.getText().contains("iphone");
     }
 }
