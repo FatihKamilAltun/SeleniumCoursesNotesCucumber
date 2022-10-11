@@ -18,14 +18,4 @@ Feature: US001 background kullanimi
     And     kullanici sonuclarin iphone icerdigini test eder
     And     kullanici sayfayi kapatir
 
-    Scenario: alisveris sitesi testi
-    * url` ye gidilir
-    * Giris yap' a tiklanir
-    * Gecerli kullanici bilgileri girilir
-    * Giris yap' a tiklanir
-    * Hesabim sayfasina giris yapildigi test edilir
-    * Acilan sayfada siparisler bolumune tiklanir
-    * Acilan sayfada Browse Products(Urunlere Goz At) butonuna tiklanir
-    * Magaza butonunun gorunur oldugu test edilir
-    * Rastgele 5 urun secilir ve sepete eklenir
-    * Urunlerin sepette gorundugu test edilir
+

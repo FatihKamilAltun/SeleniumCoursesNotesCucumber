@@ -17,3 +17,5 @@ Feature: US001 background kullanimi
     Then    kullanici iphone icin arama yapar
     And     kullanici sonuclarin iphone icerdigini test eder
     And     kullanici sayfayi kapatir
+
+

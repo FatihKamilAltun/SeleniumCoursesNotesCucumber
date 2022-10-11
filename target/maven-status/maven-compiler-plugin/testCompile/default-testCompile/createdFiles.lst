@@ -1,8 +1,12 @@
-pages\BlueRentalPage.class
 runner\Runner.class
+stepDefinitions\HepsiBuradaSteps.class
 pages\AmazonPage.class
 stepDefinitions\AmazonStepDefinition.class
-utilities\ConfigReader.class
+utilities\ReusableMethods$1.class
 utilities\Driver.class
 pages\HotelPage.class
 pages\FaceBookPage.class
+pages\BlueRentalPage.class
+utilities\ConfigReader.class
+stepDefinitions\BlueRentalSteps.class
+utilities\ReusableMethods.class

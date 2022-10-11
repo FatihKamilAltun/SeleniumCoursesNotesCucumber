@@ -3,9 +3,12 @@ package stepDefinitions;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import pages.AmazonPage;
+import utilities.ConfigReader;
 import utilities.Driver;
 
 public class AmazonStepDefinition {
@@ -54,5 +57,35 @@ public class AmazonStepDefinition {
     @And("kullanici sonuclarin iphone icerdigini test eder")
     public void kullaniciSonuclarinIphoneIcerdiginiTestEder() {
         assert amazonPage.resultTextWE.getText().contains("iphone");
+    }
+
+    @Then("kullanici {string} icin arama yapar")
+    public void kullaniciIcinAramaYapar(String searchedWord) {
+        amazonPage.searchBox.sendKeys(searchedWord,Keys.ENTER);
+    }
+
+    @And("kullanici sonuclarin {string} icerdigini test eder")
+    public void kullaniciSonuclarinIcerdiginiTestEder(String expectedResult) {
+        assert amazonPage.resultTextWE.getText().contains(expectedResult);
+    }
+
+    @Given("kullanici {string} sayfasina gider")
+    public void kullaniciSayfasinaGider(String searchedUrl) {
+        Driver.getDriver().get(ConfigReader.getProperty(searchedUrl));
+    }
+
+    @When("url'in {string} icerdigini test edelim")
+    public void urlInIcerdiginiTestEdelim(String expectedUrl) {
+        String actualUrl=Driver.getDriver().getCurrentUrl();
+        Assert.assertTrue(actualUrl.contains(expectedUrl));
+    }
+
+    @Then("kullanici {int} saniye bekler")
+    public void kullaniciSaniyeBekler(int beklemeSuresi) {
+        try {
+            Thread.sleep(beklemeSuresi*1000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
     }
 }
