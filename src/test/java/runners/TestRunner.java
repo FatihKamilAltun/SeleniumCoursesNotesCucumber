@@ -1,4 +1,4 @@
-package runner;
+package runners;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -6,13 +6,14 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
+        plugin={"html:target\\cucumber-reports.html"},
         features = "src/test/resources/features",
         glue = "stepDefinitions",
-        tags = "@All", // @All diyerek tum features'i calistirabiliriz
+        tags = "@gp6", // @All diyerek tum features'i calistirabiliriz
         dryRun = false
 )
 
-public class Runner {
+public class TestRunner {
     /*
     Runner Class'i TestNG'deki XML mantigi ile calisir
     Calistirmak istedigimiz senaryolara tag belirtiriz ve

@@ -12,6 +12,7 @@ Feature: parametre kullanimi
     When url'in "amazon" icerdigini test edelim
     And kullanici sayfayi kapatir
 
+    @gp2
   Scenario: TC003 parametre kullaniminda configreader kullanimi
     Given kullanici "googleUrl" sayfasina gider
     Then kullanici 4 saniye bekler

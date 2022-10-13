@@ -3,12 +3,13 @@ package stepDefinitions;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
+import utilities.ConfigReader;
 import utilities.Driver;
 
 public class HepsiBuradaSteps {
     @Given("kullanici {string} sayfasinda")
     public void kullaniciSayfasinda(String istenenUrl) {
-        Driver.getDriver().get(istenenUrl);
+        Driver.getDriver().get(ConfigReader.getProperty(istenenUrl));
     }
 
     @When("kullanici urlnin {string} icerdigini test eder")
