@@ -1,12 +1,14 @@
-runner\Runner.class
 stepDefinitions\HepsiBuradaSteps.class
 stepDefinitions\AmazonStepDefinition.class
 utilities\ReusableMethods$1.class
 pages\GuruPage.class
+pages\WebDriverPages.class
 pages\FaceBookPage.class
 pages\BlueRentalPage.class
+stepDefinitions\WebDriverUniSteps.class
 utilities\ReusableMethods.class
 pages\AmazonPage.class
+runners\Runner.class
 utilities\Driver.class
 pages\HotelPage.class
 stepDefinitions\Hooks.class

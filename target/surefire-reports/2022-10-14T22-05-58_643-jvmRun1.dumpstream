@@ -1,0 +1,3099 @@
+# Created at 2022-10-14T22:06:10.320
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created at 2022-10-14T22:06:41.922
+Unexpected IOException: I,1,sun.desktop,windows
+
+
+# Created at 2022-10-14T22:06:41.924
+Unexpected IOException: I,1,awt.toolkit,sun.awt.windows.WToolkit
+
+
+# Created at 2022-10-14T22:06:41.925
+Unexpected IOException: I,1,java.specification.version,11
+
+
+# Created at 2022-10-14T22:06:41.925
+Unexpected IOException: I,1,webdriver.chrome.driver,C:\005CUsers\005CFatihKamil\005C.cache\005Cselenium\005Cchromedriver\005Cwin32\005C106.0.5249.61\005Cchromedriver.exe
+
+
+# Created at 2022-10-14T22:06:41.925
+Unexpected IOException: I,1,sun.cpu.isalist,amd64
+
+
+# Created at 2022-10-14T22:06:41.925
+Unexpected IOException: I,1,sun.jnu.encoding,Cp1254
+
+
+# Created at 2022-10-14T22:06:41.926
+Unexpected IOException: I,1,java.class.path,C:\005CUsers\005CFatihKamil\005CIdeaProjects\005Ccom.SeleniumCucumber\005Ctarget\005Ctest-classes;C:\005CUsers\005CFatihKamil\005CIdeaProjects\005Ccom.SeleniumCucumber\005Ctarget\005Cclasses;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-java\005C4.1.2\005Cselenium-java-4.1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-api\005C4.1.2\005Cselenium-api-4.1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-chrome-driver\005C4.1.2\005Cselenium-chrome-driver-4.1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cauto\005Cservice\005Cauto-service-annotations\005C1.0.1\005Cauto-service-annotations-1.0.1.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cauto\005Cservice\005Cauto-service\005C1.0.1\005Cauto-service-1.0.1.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cauto\005Cauto-common\005C1.2\005Cauto-common-1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cguava\005Cguava\005C31.0.1-jre\005Cguava-31.0.1-jre.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cguava\005Cfailureaccess\005C1.0.1\005Cfailureaccess-1.0.1.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cguava\005Clistenablefuture\005C9999.0-empty-to-avoid-conflict-with-guava\005Clistenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cgoogle\005Ccode\005Cfindbugs\005Cjsr305\005C3.0.2\005Cjsr305-3.0.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Ccheckerframework\005Cchecker-qual\005C3.12.0\005Cchecker-qual-3.12.0.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cerrorprone\005Cerror_prone_annotations\005C2.7.1\005Cerror_prone_annotations-2.7.1.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cj2objc\005Cj2objc-annotations\005C1.3\005Cj2objc-annotations-1.3.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-chromium-driver\005C4.1.2\005Cselenium-chromium-driver-4.1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-json\005C4.1.2\005Cselenium-json-4.1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-devtools-v85\005C4.1.2\005Cselenium-devtools-v85-4.1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-devtools-v95\005C4.1.2\005Cselenium-devtools-v95-4.1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-devtools-v96\005C4.1.2\005Cselenium-devtools-v96-4.1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-devtools-v97\005C4.1.2\005Cselenium-devtools-v97-4.1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-edge-driver\005C4.1.2\005Cselenium-edge-driver-4.1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-firefox-driver\005C4.1.2\005Cselenium-firefox-driver-4.1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-firefox-xpi-driver\005C4.1.2\005Cselenium-firefox-xpi-driver-4.1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-ie-driver\005C4.1.2\005Cselenium-ie-driver-4.1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-opera-driver\005C4.1.2\005Cselenium-opera-driver-4.1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-remote-driver\005C4.1.2\005Cselenium-remote-driver-4.1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cbeust\005Cjcommander\005C1.82\005Cjcommander-1.82.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-buffer\005C4.1.73.Final\005Cnetty-buffer-4.1.73.Final.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-codec-http\005C4.1.73.Final\005Cnetty-codec-http-4.1.73.Final.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-codec\005C4.1.73.Final\005Cnetty-codec-4.1.73.Final.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-handler\005C4.1.73.Final\005Cnetty-handler-4.1.73.Final.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-tcnative-classes\005C2.0.46.Final\005Cnetty-tcnative-classes-2.0.46.Final.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-common\005C4.1.73.Final\005Cnetty-common-4.1.73.Final.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-transport-classes-epoll\005C4.1.73.Final\005Cnetty-transport-classes-epoll-4.1.73.Final.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-transport-classes-kqueue\005C4.1.73.Final\005Cnetty-transport-classes-kqueue-4.1.73.Final.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-transport-native-epoll\005C4.1.73.Final\005Cnetty-transport-native-epoll-4.1.73.Final.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-transport-native-kqueue\005C4.1.73.Final\005Cnetty-transport-native-kqueue-4.1.73.Final.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-transport-native-unix-common\005C4.1.73.Final\005Cnetty-transport-native-unix-common-4.1.73.Final.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-transport\005C4.1.73.Final\005Cnetty-transport-4.1.73.Final.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-resolver\005C4.1.73.Final\005Cnetty-resolver-4.1.73.Final.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-api\005C1.10.1\005Copentelemetry-api-1.10.1.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-context\005C1.10.1\005Copentelemetry-context-1.10.1.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-exporter-logging\005C1.10.1\005Copentelemetry-exporter-logging-1.10.1.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-sdk-metrics\005C1.10.1-alpha\005Copentelemetry-sdk-metrics-1.10.1-alpha.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-sdk-logs\005C1.10.1-alpha\005Copentelemetry-sdk-logs-1.10.1-alpha.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-sdk-common\005C1.10.1\005Copentelemetry-sdk-common-1.10.1.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-sdk-extension-autoconfigure-spi\005C1.10.1\005Copentelemetry-sdk-extension-autoconfigure-spi-1.10.1.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-sdk-extension-autoconfigure\005C1.10.1-alpha\005Copentelemetry-sdk-extension-autoconfigure-1.10.1-alpha.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-sdk-trace\005C1.10.1\005Copentelemetry-sdk-trace-1.10.1.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-sdk\005C1.10.1\005Copentelemetry-sdk-1.10.1.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-semconv\005C1.10.1-alpha\005Copentelemetry-semconv-1.10.1-alpha.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Cous\005Cjtoml\005C2.0.0\005Cjtoml-2.0.0.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cnet\005Cbytebuddy\005Cbyte-buddy\005C1.12.7\005Cbyte-buddy-1.12.7.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-exec\005C1.3\005Ccommons-exec-1.3.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Casynchttpclient\005Casync-http-client\005C2.12.3\005Casync-http-client-2.12.3.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Casynchttpclient\005Casync-http-client-netty-utils\005C2.12.3\005Casync-http-client-netty-utils-2.12.3.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-codec-socks\005C4.1.60.Final\005Cnetty-codec-socks-4.1.60.Final.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-handler-proxy\005C4.1.60.Final\005Cnetty-handler-proxy-4.1.60.Final.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-transport-native-epoll\005C4.1.60.Final\005Cnetty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-transport-native-kqueue\005C4.1.60.Final\005Cnetty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Creactivestreams\005Creactive-streams\005C1.0.3\005Creactive-streams-1.0.3.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Ctypesafe\005Cnetty\005Cnetty-reactive-streams\005C2.0.4\005Cnetty-reactive-streams-2.0.4.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Csun\005Cactivation\005Cjakarta.activation\005C1.2.2\005Cjakarta.activation-1.2.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-http\005C4.1.2\005Cselenium-http-4.1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cnet\005Cjodah\005Cfailsafe\005C2.4.4\005Cfailsafe-2.4.4.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-safari-driver\005C4.1.2\005Cselenium-safari-driver-4.1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-support\005C4.1.2\005Cselenium-support-4.1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Cgithub\005Cbonigarcia\005Cwebdrivermanager\005C5.1.0\005Cwebdrivermanager-5.1.0.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cslf4j\005Cslf4j-api\005C1.7.36\005Cslf4j-api-1.7.36.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cgoogle\005Ccode\005Cgson\005Cgson\005C2.9.0\005Cgson-2.9.0.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cgithub\005Cdocker-java\005Cdocker-java\005C3.2.13\005Cdocker-java-3.2.13.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cgithub\005Cdocker-java\005Cdocker-java-core\005C3.2.13\005Cdocker-java-core-3.2.13.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cgithub\005Cdocker-java\005Cdocker-java-api\005C3.2.13\005Cdocker-java-api-3.2.13.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Ccore\005Cjackson-annotations\005C2.10.3\005Cjackson-annotations-2.10.3.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Ccore\005Cjackson-databind\005C2.10.3\005Cjackson-databind-2.10.3.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Ccore\005Cjackson-core\005C2.10.3\005Cjackson-core-2.10.3.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cbouncycastle\005Cbcpkix-jdk15on\005C1.64\005Cbcpkix-jdk15on-1.64.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cbouncycastle\005Cbcprov-jdk15on\005C1.64\005Cbcprov-jdk15on-1.64.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cslf4j\005Cjcl-over-slf4j\005C1.7.30\005Cjcl-over-slf4j-1.7.30.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cgithub\005Cdocker-java\005Cdocker-java-transport-httpclient5\005C3.2.13\005Cdocker-java-transport-httpclient5-3.2.13.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cgithub\005Cdocker-java\005Cdocker-java-transport\005C3.2.13\005Cdocker-java-transport-3.2.13.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Cclient5\005Chttpclient5\005C5.0.3\005Chttpclient5-5.0.3.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Ccore5\005Chttpcore5\005C5.0.2\005Chttpcore5-5.0.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cnet\005Cjava\005Cdev\005Cjna\005Cjna\005C5.8.0\005Cjna-5.8.0.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cbrotli\005Cdec\005C0.1.2\005Cdec-0.1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-lang3\005C3.12.0\005Ccommons-lang3-3.12.0.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cgithub\005Cjavafaker\005Cjavafaker\005C1.0.2\005Cjavafaker-1.0.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cyaml\005Csnakeyaml\005C1.23\005Csnakeyaml-1.23-android.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cgithub\005Cmifmif\005Cgenerex\005C1.0.2\005Cgenerex-1.0.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cdk\005Cbrics\005Cautomaton\005Cautomaton\005C1.11-8\005Cautomaton-1.11-8.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Capache\005Cpoi\005Cpoi\005C5.2.2\005Cpoi-5.2.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccommons-codec\005Ccommons-codec\005C1.15\005Ccommons-codec-1.15.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-collections4\005C4.4\005Ccommons-collections4-4.4.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-math3\005C3.6.1\005Ccommons-math3-3.6.1.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccommons-io\005Ccommons-io\005C2.11.0\005Ccommons-io-2.11.0.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Czaxxer\005CSparseBitSet\005C1.2\005CSparseBitSet-1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Capache\005Clogging\005Clog4j\005Clog4j-api\005C2.17.2\005Clog4j-api-2.17.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Capache\005Cpoi\005Cpoi-ooxml\005C5.2.2\005Cpoi-ooxml-5.2.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Capache\005Cpoi\005Cpoi-ooxml-lite\005C5.2.2\005Cpoi-ooxml-lite-5.2.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Capache\005Cxmlbeans\005Cxmlbeans\005C5.0.3\005Cxmlbeans-5.0.3.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-compress\005C1.21\005Ccommons-compress-1.21.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cgithub\005Cvirtuald\005Ccurvesapi\005C1.07\005Ccurvesapi-1.07.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-java\005C7.2.3\005Ccucumber-java-7.2.3.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-core\005C7.2.3\005Ccucumber-core-7.2.3.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-gherkin\005C7.2.3\005Ccucumber-gherkin-7.2.3.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-gherkin-messages\005C7.2.3\005Ccucumber-gherkin-messages-7.2.3.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Ccucumber\005Cmessages\005C17.1.1\005Cmessages-17.1.1.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Ccucumber\005Ctag-expressions\005C4.1.0\005Ctag-expressions-4.1.0.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-expressions\005C15.0.1\005Ccucumber-expressions-15.0.1.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Ccucumber\005Cdatatable\005C7.2.3\005Cdatatable-7.2.3.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-plugin\005C7.2.3\005Ccucumber-plugin-7.2.3.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Ccucumber\005Cdocstring\005C7.2.3\005Cdocstring-7.2.3.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Ccucumber\005Chtml-formatter\005C17.0.0\005Chtml-formatter-17.0.0.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Ccucumber\005Cci-environment\005C8.1.0\005Cci-environment-8.1.0.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Capiguardian\005Capiguardian-api\005C1.1.2\005Capiguardian-api-1.1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-junit\005C7.2.3\005Ccucumber-junit-7.2.3.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cjunit\005Cjunit\005C4.13.2\005Cjunit-4.13.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Chamcrest\005Chamcrest-core\005C1.3\005Chamcrest-core-1.3.jar;
+
+
+# Created at 2022-10-14T22:06:41.926
+Unexpected IOException: I,1,java.vm.vendor,Oracle Corporation
+
+
+# Created at 2022-10-14T22:06:41.927
+Unexpected IOException: I,1,sun.arch.data.model,64
+
+
+# Created at 2022-10-14T22:06:41.927
+Unexpected IOException: I,1,user.variant,
+
+
+# Created at 2022-10-14T22:06:41.927
+Unexpected IOException: I,1,java.vendor.url,https://openjdk.java.net/
+
+
+# Created at 2022-10-14T22:06:41.928
+Unexpected IOException: I,1,user.timezone,Asia/Istanbul
+
+
+# Created at 2022-10-14T22:06:41.928
+Unexpected IOException: I,1,os.name,Windows 11
+
+
+# Created at 2022-10-14T22:06:41.928
+Unexpected IOException: I,1,java.vm.specification.version,11
+
+
+# Created at 2022-10-14T22:06:41.928
+Unexpected IOException: I,1,sun.java.launcher,SUN_STANDARD
+
+
+# Created at 2022-10-14T22:06:41.929
+Unexpected IOException: I,1,user.country,TR
+
+
+# Created at 2022-10-14T22:06:41.929
+Unexpected IOException: I,1,sun.boot.library.path,C:\005CProgram Files\005CJava\005Cjdk-11.0.15\005Cbin
+
+
+# Created at 2022-10-14T22:06:41.930
+Unexpected IOException: I,1,sun.java.command,C:\005CUsers\005CFATIHK~1\005CAppData\005CLocal\005CTemp\005Csurefire6450561240842873242\005Csurefirebooter1058044885267956729.jar C:\005CUsers\005CFatihKamil\005CAppData\005CLocal\005CTemp\005Csurefire6450561240842873242 2022-10-14T22-05-58_643-jvmRun1 surefire283144985672706196tmp surefire_013233641867324757097tmp
+
+
+# Created at 2022-10-14T22:06:41.930
+Unexpected IOException: I,1,jdk.debug,release
+
+
+# Created at 2022-10-14T22:06:41.930
+Unexpected IOException: I,1,surefire.test.class.path,C:\005CUsers\005CFatihKamil\005CIdeaProjects\005Ccom.SeleniumCucumber\005Ctarget\005Ctest-classes;C:\005CUsers\005CFatihKamil\005CIdeaProjects\005Ccom.SeleniumCucumber\005Ctarget\005Cclasses;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-java\005C4.1.2\005Cselenium-java-4.1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-api\005C4.1.2\005Cselenium-api-4.1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-chrome-driver\005C4.1.2\005Cselenium-chrome-driver-4.1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cauto\005Cservice\005Cauto-service-annotations\005C1.0.1\005Cauto-service-annotations-1.0.1.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cauto\005Cservice\005Cauto-service\005C1.0.1\005Cauto-service-1.0.1.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cauto\005Cauto-common\005C1.2\005Cauto-common-1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cguava\005Cguava\005C31.0.1-jre\005Cguava-31.0.1-jre.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cguava\005Cfailureaccess\005C1.0.1\005Cfailureaccess-1.0.1.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cguava\005Clistenablefuture\005C9999.0-empty-to-avoid-conflict-with-guava\005Clistenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cgoogle\005Ccode\005Cfindbugs\005Cjsr305\005C3.0.2\005Cjsr305-3.0.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Ccheckerframework\005Cchecker-qual\005C3.12.0\005Cchecker-qual-3.12.0.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cerrorprone\005Cerror_prone_annotations\005C2.7.1\005Cerror_prone_annotations-2.7.1.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cj2objc\005Cj2objc-annotations\005C1.3\005Cj2objc-annotations-1.3.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-chromium-driver\005C4.1.2\005Cselenium-chromium-driver-4.1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-json\005C4.1.2\005Cselenium-json-4.1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-devtools-v85\005C4.1.2\005Cselenium-devtools-v85-4.1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-devtools-v95\005C4.1.2\005Cselenium-devtools-v95-4.1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-devtools-v96\005C4.1.2\005Cselenium-devtools-v96-4.1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-devtools-v97\005C4.1.2\005Cselenium-devtools-v97-4.1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-edge-driver\005C4.1.2\005Cselenium-edge-driver-4.1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-firefox-driver\005C4.1.2\005Cselenium-firefox-driver-4.1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-firefox-xpi-driver\005C4.1.2\005Cselenium-firefox-xpi-driver-4.1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-ie-driver\005C4.1.2\005Cselenium-ie-driver-4.1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-opera-driver\005C4.1.2\005Cselenium-opera-driver-4.1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-remote-driver\005C4.1.2\005Cselenium-remote-driver-4.1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cbeust\005Cjcommander\005C1.82\005Cjcommander-1.82.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-buffer\005C4.1.73.Final\005Cnetty-buffer-4.1.73.Final.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-codec-http\005C4.1.73.Final\005Cnetty-codec-http-4.1.73.Final.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-codec\005C4.1.73.Final\005Cnetty-codec-4.1.73.Final.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-handler\005C4.1.73.Final\005Cnetty-handler-4.1.73.Final.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-tcnative-classes\005C2.0.46.Final\005Cnetty-tcnative-classes-2.0.46.Final.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-common\005C4.1.73.Final\005Cnetty-common-4.1.73.Final.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-transport-classes-epoll\005C4.1.73.Final\005Cnetty-transport-classes-epoll-4.1.73.Final.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-transport-classes-kqueue\005C4.1.73.Final\005Cnetty-transport-classes-kqueue-4.1.73.Final.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-transport-native-epoll\005C4.1.73.Final\005Cnetty-transport-native-epoll-4.1.73.Final.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-transport-native-kqueue\005C4.1.73.Final\005Cnetty-transport-native-kqueue-4.1.73.Final.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-transport-native-unix-common\005C4.1.73.Final\005Cnetty-transport-native-unix-common-4.1.73.Final.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-transport\005C4.1.73.Final\005Cnetty-transport-4.1.73.Final.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-resolver\005C4.1.73.Final\005Cnetty-resolver-4.1.73.Final.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-api\005C1.10.1\005Copentelemetry-api-1.10.1.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-context\005C1.10.1\005Copentelemetry-context-1.10.1.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-exporter-logging\005C1.10.1\005Copentelemetry-exporter-logging-1.10.1.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-sdk-metrics\005C1.10.1-alpha\005Copentelemetry-sdk-metrics-1.10.1-alpha.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-sdk-logs\005C1.10.1-alpha\005Copentelemetry-sdk-logs-1.10.1-alpha.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-sdk-common\005C1.10.1\005Copentelemetry-sdk-common-1.10.1.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-sdk-extension-autoconfigure-spi\005C1.10.1\005Copentelemetry-sdk-extension-autoconfigure-spi-1.10.1.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-sdk-extension-autoconfigure\005C1.10.1-alpha\005Copentelemetry-sdk-extension-autoconfigure-1.10.1-alpha.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-sdk-trace\005C1.10.1\005Copentelemetry-sdk-trace-1.10.1.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-sdk\005C1.10.1\005Copentelemetry-sdk-1.10.1.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Copentelemetry\005Copentelemetry-semconv\005C1.10.1-alpha\005Copentelemetry-semconv-1.10.1-alpha.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Cous\005Cjtoml\005C2.0.0\005Cjtoml-2.0.0.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cnet\005Cbytebuddy\005Cbyte-buddy\005C1.12.7\005Cbyte-buddy-1.12.7.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-exec\005C1.3\005Ccommons-exec-1.3.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Casynchttpclient\005Casync-http-client\005C2.12.3\005Casync-http-client-2.12.3.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Casynchttpclient\005Casync-http-client-netty-utils\005C2.12.3\005Casync-http-client-netty-utils-2.12.3.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-codec-socks\005C4.1.60.Final\005Cnetty-codec-socks-4.1.60.Final.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-handler-proxy\005C4.1.60.Final\005Cnetty-handler-proxy-4.1.60.Final.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-transport-native-epoll\005C4.1.60.Final\005Cnetty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Cnetty\005Cnetty-transport-native-kqueue\005C4.1.60.Final\005Cnetty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Creactivestreams\005Creactive-streams\005C1.0.3\005Creactive-streams-1.0.3.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Ctypesafe\005Cnetty\005Cnetty-reactive-streams\005C2.0.4\005Cnetty-reactive-streams-2.0.4.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Csun\005Cactivation\005Cjakarta.activation\005C1.2.2\005Cjakarta.activation-1.2.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-http\005C4.1.2\005Cselenium-http-4.1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cnet\005Cjodah\005Cfailsafe\005C2.4.4\005Cfailsafe-2.4.4.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-safari-driver\005C4.1.2\005Cselenium-safari-driver-4.1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-support\005C4.1.2\005Cselenium-support-4.1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Cgithub\005Cbonigarcia\005Cwebdrivermanager\005C5.1.0\005Cwebdrivermanager-5.1.0.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cslf4j\005Cslf4j-api\005C1.7.36\005Cslf4j-api-1.7.36.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cgoogle\005Ccode\005Cgson\005Cgson\005C2.9.0\005Cgson-2.9.0.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cgithub\005Cdocker-java\005Cdocker-java\005C3.2.13\005Cdocker-java-3.2.13.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cgithub\005Cdocker-java\005Cdocker-java-core\005C3.2.13\005Cdocker-java-core-3.2.13.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cgithub\005Cdocker-java\005Cdocker-java-api\005C3.2.13\005Cdocker-java-api-3.2.13.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Ccore\005Cjackson-annotations\005C2.10.3\005Cjackson-annotations-2.10.3.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Ccore\005Cjackson-databind\005C2.10.3\005Cjackson-databind-2.10.3.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cjackson\005Ccore\005Cjackson-core\005C2.10.3\005Cjackson-core-2.10.3.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cbouncycastle\005Cbcpkix-jdk15on\005C1.64\005Cbcpkix-jdk15on-1.64.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cbouncycastle\005Cbcprov-jdk15on\005C1.64\005Cbcprov-jdk15on-1.64.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cslf4j\005Cjcl-over-slf4j\005C1.7.30\005Cjcl-over-slf4j-1.7.30.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cgithub\005Cdocker-java\005Cdocker-java-transport-httpclient5\005C3.2.13\005Cdocker-java-transport-httpclient5-3.2.13.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cgithub\005Cdocker-java\005Cdocker-java-transport\005C3.2.13\005Cdocker-java-transport-3.2.13.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Cclient5\005Chttpclient5\005C5.0.3\005Chttpclient5-5.0.3.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Ccore5\005Chttpcore5\005C5.0.2\005Chttpcore5-5.0.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cnet\005Cjava\005Cdev\005Cjna\005Cjna\005C5.8.0\005Cjna-5.8.0.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cbrotli\005Cdec\005C0.1.2\005Cdec-0.1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-lang3\005C3.12.0\005Ccommons-lang3-3.12.0.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cgithub\005Cjavafaker\005Cjavafaker\005C1.0.2\005Cjavafaker-1.0.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Cyaml\005Csnakeyaml\005C1.23\005Csnakeyaml-1.23-android.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cgithub\005Cmifmif\005Cgenerex\005C1.0.2\005Cgenerex-1.0.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cdk\005Cbrics\005Cautomaton\005Cautomaton\005C1.11-8\005Cautomaton-1.11-8.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Capache\005Cpoi\005Cpoi\005C5.2.2\005Cpoi-5.2.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccommons-codec\005Ccommons-codec\005C1.15\005Ccommons-codec-1.15.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-collections4\005C4.4\005Ccommons-collections4-4.4.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-math3\005C3.6.1\005Ccommons-math3-3.6.1.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccommons-io\005Ccommons-io\005C2.11.0\005Ccommons-io-2.11.0.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Czaxxer\005CSparseBitSet\005C1.2\005CSparseBitSet-1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Capache\005Clogging\005Clog4j\005Clog4j-api\005C2.17.2\005Clog4j-api-2.17.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Capache\005Cpoi\005Cpoi-ooxml\005C5.2.2\005Cpoi-ooxml-5.2.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Capache\005Cpoi\005Cpoi-ooxml-lite\005C5.2.2\005Cpoi-ooxml-lite-5.2.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Capache\005Cxmlbeans\005Cxmlbeans\005C5.0.3\005Cxmlbeans-5.0.3.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-compress\005C1.21\005Ccommons-compress-1.21.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Ccom\005Cgithub\005Cvirtuald\005Ccurvesapi\005C1.07\005Ccurvesapi-1.07.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-java\005C7.2.3\005Ccucumber-java-7.2.3.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-core\005C7.2.3\005Ccucumber-core-7.2.3.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-gherkin\005C7.2.3\005Ccucumber-gherkin-7.2.3.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-gherkin-messages\005C7.2.3\005Ccucumber-gherkin-messages-7.2.3.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Ccucumber\005Cmessages\005C17.1.1\005Cmessages-17.1.1.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Ccucumber\005Ctag-expressions\005C4.1.0\005Ctag-expressions-4.1.0.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-expressions\005C15.0.1\005Ccucumber-expressions-15.0.1.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Ccucumber\005Cdatatable\005C7.2.3\005Cdatatable-7.2.3.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-plugin\005C7.2.3\005Ccucumber-plugin-7.2.3.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Ccucumber\005Cdocstring\005C7.2.3\005Cdocstring-7.2.3.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Ccucumber\005Chtml-formatter\005C17.0.0\005Chtml-formatter-17.0.0.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Ccucumber\005Cci-environment\005C8.1.0\005Cci-environment-8.1.0.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Capiguardian\005Capiguardian-api\005C1.1.2\005Capiguardian-api-1.1.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-junit\005C7.2.3\005Ccucumber-junit-7.2.3.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Cjunit\005Cjunit\005C4.13.2\005Cjunit-4.13.2.jar;C:\005CUsers\005CFatihKamil\005C.m2\005Crepository\005Corg\005Chamcrest\005Chamcrest-core\005C1.3\005Chamcrest-core-1.3.jar;
+
+
+# Created at 2022-10-14T22:06:41.931
+Unexpected IOException: I,1,sun.cpu.endian,little
+
+
+# Created at 2022-10-14T22:06:41.931
+Unexpected IOException: I,1,user.home,C:\005CUsers\005CFatihKamil
+
+
+# Created at 2022-10-14T22:06:41.931
+Unexpected IOException: I,1,user.language,tr
+
+
+# Created at 2022-10-14T22:06:41.932
+Unexpected IOException: I,1,java.specification.vendor,Oracle Corporation
+
+
+# Created at 2022-10-14T22:06:41.932
+Unexpected IOException: I,1,java.version.date,2022-04-19
+
+
+# Created at 2022-10-14T22:06:41.933
+Unexpected IOException: I,1,java.home,C:\005CProgram Files\005CJava\005Cjdk-11.0.15
+
+
+# Created at 2022-10-14T22:06:41.933
+Unexpected IOException: I,1,file.separator,\005C
+
+
+# Created at 2022-10-14T22:06:41.933
+Unexpected IOException: I,1,basedir,C:\005CUsers\005CFatihKamil\005CIdeaProjects\005Ccom.SeleniumCucumber
+
+
+# Created at 2022-10-14T22:06:41.933
+Unexpected IOException: I,1,java.vm.compressedOopsMode,Zero based
+
+
+# Created at 2022-10-14T22:06:41.934
+Unexpected IOException: I,1,line.separator,\000D\000A
+
+
+# Created at 2022-10-14T22:06:41.934
+Unexpected IOException: I,1,java.specification.name,Java Platform API Specification
+
+
+# Created at 2022-10-14T22:06:41.934
+Unexpected IOException: I,1,java.vm.specification.vendor,Oracle Corporation
+
+
+# Created at 2022-10-14T22:06:41.935
+Unexpected IOException: I,1,java.awt.graphicsenv,sun.awt.Win32GraphicsEnvironment
+
+
+# Created at 2022-10-14T22:06:41.935
+Unexpected IOException: I,1,surefire.real.class.path,C:\005CUsers\005CFATIHK~1\005CAppData\005CLocal\005CTemp\005Csurefire6450561240842873242\005Csurefirebooter1058044885267956729.jar
+
+
+# Created at 2022-10-14T22:06:41.935
+Unexpected IOException: I,1,user.script,
+
+
+# Created at 2022-10-14T22:06:41.936
+Unexpected IOException: I,1,sun.management.compiler,HotSpot 64-Bit Tiered Compilers
+
+
+# Created at 2022-10-14T22:06:41.936
+Unexpected IOException: I,1,java.runtime.version,11.0.15+8-LTS-149
+
+
+# Created at 2022-10-14T22:06:41.936
+Unexpected IOException: I,1,user.name,FatihKamil
+
+
+# Created at 2022-10-14T22:06:41.936
+Unexpected IOException: I,1,path.separator,;
+
+
+# Created at 2022-10-14T22:06:41.937
+Unexpected IOException: I,1,os.version,10.0
+
+
+# Created at 2022-10-14T22:06:41.937
+Unexpected IOException: I,1,java.runtime.name,Java(TM) SE Runtime Environment
+
+
+# Created at 2022-10-14T22:06:41.937
+Unexpected IOException: I,1,file.encoding,UTF-8
+
+
+# Created at 2022-10-14T22:06:41.938
+Unexpected IOException: I,1,java.vm.name,Java HotSpot(TM) 64-Bit Server VM
+
+
+# Created at 2022-10-14T22:06:41.938
+Unexpected IOException: I,1,java.vendor.version,18.9
+
+
+# Created at 2022-10-14T22:06:41.938
+Unexpected IOException: I,1,localRepository,C:\005CUsers\005CFatihKamil\005C.m2\005Crepository
+
+
+# Created at 2022-10-14T22:06:41.938
+Unexpected IOException: I,1,java.vendor.url.bug,https://bugreport.java.com/bugreport/
+
+
+# Created at 2022-10-14T22:06:41.939
+Unexpected IOException: I,1,java.io.tmpdir,C:\005CUsers\005CFATIHK~1\005CAppData\005CLocal\005CTemp\005C
+
+
+# Created at 2022-10-14T22:06:41.939
+Unexpected IOException: I,1,idea.version,2022.2
+
+
+# Created at 2022-10-14T22:06:41.939
+Unexpected IOException: I,1,java.version,11.0.15
+
+
+# Created at 2022-10-14T22:06:41.939
+Unexpected IOException: I,1,user.dir,C:\005CUsers\005CFatihKamil\005CIdeaProjects\005Ccom.SeleniumCucumber
+
+
+# Created at 2022-10-14T22:06:41.940
+Unexpected IOException: I,1,os.arch,amd64
+
+
+# Created at 2022-10-14T22:06:41.940
+Unexpected IOException: I,1,java.vm.specification.name,Java Virtual Machine Specification
+
+
+# Created at 2022-10-14T22:06:41.940
+Unexpected IOException: I,1,java.awt.printerjob,sun.awt.windows.WPrinterJob
+
+
+# Created at 2022-10-14T22:06:41.940
+Unexpected IOException: I,1,sun.os.patch.level,
+
+
+# Created at 2022-10-14T22:06:41.941
+Unexpected IOException: I,1,java.library.path,C:\005CProgram Files\005CJava\005Cjdk-11.0.15\005Cbin;C:\005CWindows\005CSun\005CJava\005Cbin;C:\005CWindows\005Csystem32;C:\005CWindows;C:\005CProgram Files\005CCommon Files\005COracle\005CJava\005Cjavapath;C:\005CProgram Files (x86)\005CCommon Files\005COracle\005CJava\005Cjavapath;C:\005CWindows\005Csystem32;C:\005CWindows;C:\005CWindows\005CSystem32\005CWbem;C:\005CWindows\005CSystem32\005CWindowsPowerShell\005Cv1.0\005C;C:\005CWindows\005CSystem32\005COpenSSH\005C;C:\005CProgram Files (x86)\005CNVIDIA Corporation\005CPhysX\005CCommon;C:\005CProgram Files\005CNVIDIA Corporation\005CNVIDIA NvDLISR;C:\005CProgram Files\005CGit\005Ccmd;C:\005CUsers\005CFatihKamil\005CAppData\005CLocal\005CMicrosoft\005CWindowsApps;C:\005CUsers\005CFatihKamil\005CAppData\005CLocal\005CPrograms\005CMicrosoft VS Code\005Cbin;C:\005CProgram Files\005Capache-maven-3.8.6\005Cbin;;.
+
+
+# Created at 2022-10-14T22:06:41.941
+Unexpected IOException: I,1,java.vendor,Oracle Corporation
+
+
+# Created at 2022-10-14T22:06:41.941
+Unexpected IOException: I,1,java.vm.info,mixed mode
+
+
+# Created at 2022-10-14T22:06:41.942
+Unexpected IOException: I,1,java.vm.version,11.0.15+8-LTS-149
+
+
+# Created at 2022-10-14T22:06:41.942
+Unexpected IOException: I,1,sun.io.unicode.encoding,UnicodeLittle
+
+
+# Created at 2022-10-14T22:06:41.942
+Unexpected IOException: I,1,java.class.version,55.0
+
+
+# Created at 2022-10-14T22:06:41.944
+Unexpected IOException: 1,1,parametre kullanimi,parametre kullanimi,null,null,null
+
+
+# Created at 2022-10-14T22:06:41.945
+Unexpected IOException: 5,1,parametre kullanimi,TC003 parametre kullaniminda configreader kullanimi(parametre kullanimi),null,null,41682
+
+
+# Created at 2022-10-14T22:06:41.945
+Unexpected IOException with stream: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+
+# Created at 2022-10-14T22:06:41.946
+Unexpected IOException with stream: SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+
+# Created at 2022-10-14T22:06:41.946
+Unexpected IOException with stream: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+
+# Created at 2022-10-14T22:06:41.946
+Unexpected IOException with stream: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+
+
+# Created at 2022-10-14T22:06:41.947
+Unexpected IOException with stream: S
+
+# Created at 2022-10-14T22:06:41.947
+Unexpected IOException with stream: t
+
+# Created at 2022-10-14T22:06:41.947
+Unexpected IOException with stream: a
+
+# Created at 2022-10-14T22:06:41.947
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:41.948
+Unexpected IOException with stream: t
+
+# Created at 2022-10-14T22:06:41.948
+Unexpected IOException with stream: i
+
+# Created at 2022-10-14T22:06:41.948
+Unexpected IOException with stream: n
+
+# Created at 2022-10-14T22:06:41.948
+Unexpected IOException with stream: g
+
+# Created at 2022-10-14T22:06:41.949
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:41.949
+Unexpected IOException with stream: C
+
+# Created at 2022-10-14T22:06:41.949
+Unexpected IOException with stream: h
+
+# Created at 2022-10-14T22:06:41.949
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:41.950
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:41.950
+Unexpected IOException with stream: m
+
+# Created at 2022-10-14T22:06:41.950
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:41.950
+Unexpected IOException with stream: D
+
+# Created at 2022-10-14T22:06:41.950
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:41.951
+Unexpected IOException with stream: i
+
+# Created at 2022-10-14T22:06:41.951
+Unexpected IOException with stream: v
+
+# Created at 2022-10-14T22:06:41.951
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:41.952
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:41.952
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:41.952
+Unexpected IOException with stream: 1
+
+# Created at 2022-10-14T22:06:41.952
+Unexpected IOException with stream: 0
+
+# Created at 2022-10-14T22:06:41.953
+Unexpected IOException with stream: 6
+
+# Created at 2022-10-14T22:06:41.953
+Unexpected IOException with stream: .
+
+# Created at 2022-10-14T22:06:41.953
+Unexpected IOException with stream: 0
+
+# Created at 2022-10-14T22:06:41.953
+Unexpected IOException with stream: .
+
+# Created at 2022-10-14T22:06:41.954
+Unexpected IOException with stream: 5
+
+# Created at 2022-10-14T22:06:41.954
+Unexpected IOException with stream: 2
+
+# Created at 2022-10-14T22:06:41.954
+Unexpected IOException with stream: 4
+
+# Created at 2022-10-14T22:06:41.954
+Unexpected IOException with stream: 9
+
+# Created at 2022-10-14T22:06:41.955
+Unexpected IOException with stream: .
+
+# Created at 2022-10-14T22:06:41.955
+Unexpected IOException with stream: 6
+
+# Created at 2022-10-14T22:06:41.955
+Unexpected IOException with stream: 1
+
+# Created at 2022-10-14T22:06:41.955
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:41.955
+Unexpected IOException with stream: (
+
+# Created at 2022-10-14T22:06:41.956
+Unexpected IOException with stream: 5
+
+# Created at 2022-10-14T22:06:41.956
+Unexpected IOException with stream: 1
+
+# Created at 2022-10-14T22:06:41.956
+Unexpected IOException with stream: 1
+
+# Created at 2022-10-14T22:06:41.956
+Unexpected IOException with stream: 7
+
+# Created at 2022-10-14T22:06:41.957
+Unexpected IOException with stream: 5
+
+# Created at 2022-10-14T22:06:41.957
+Unexpected IOException with stream: 5
+
+# Created at 2022-10-14T22:06:41.957
+Unexpected IOException with stream: 3
+
+# Created at 2022-10-14T22:06:41.957
+Unexpected IOException with stream: 5
+
+# Created at 2022-10-14T22:06:41.958
+Unexpected IOException with stream: 5
+
+# Created at 2022-10-14T22:06:41.958
+Unexpected IOException with stream: 8
+
+# Created at 2022-10-14T22:06:41.958
+Unexpected IOException with stream: 4
+
+# Created at 2022-10-14T22:06:41.958
+Unexpected IOException with stream: 4
+
+# Created at 2022-10-14T22:06:41.959
+Unexpected IOException with stream: 9
+
+# Created at 2022-10-14T22:06:41.959
+Unexpected IOException with stream: 5
+
+# Created at 2022-10-14T22:06:41.959
+Unexpected IOException with stream: 5
+
+# Created at 2022-10-14T22:06:41.959
+Unexpected IOException with stream: c
+
+# Created at 2022-10-14T22:06:41.959
+Unexpected IOException with stream: d
+
+# Created at 2022-10-14T22:06:41.960
+Unexpected IOException with stream: 3
+
+# Created at 2022-10-14T22:06:41.960
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:41.960
+Unexpected IOException with stream: 2
+
+# Created at 2022-10-14T22:06:41.960
+Unexpected IOException with stream: 6
+
+# Created at 2022-10-14T22:06:41.961
+Unexpected IOException with stream: 4
+
+# Created at 2022-10-14T22:06:41.961
+Unexpected IOException with stream: 7
+
+# Created at 2022-10-14T22:06:41.961
+Unexpected IOException with stream: 7
+
+# Created at 2022-10-14T22:06:41.961
+Unexpected IOException with stream: 9
+
+# Created at 2022-10-14T22:06:41.962
+Unexpected IOException with stream: b
+
+# Created at 2022-10-14T22:06:41.962
+Unexpected IOException with stream: a
+
+# Created at 2022-10-14T22:06:41.962
+Unexpected IOException with stream: f
+
+# Created at 2022-10-14T22:06:41.962
+Unexpected IOException with stream: 0
+
+# Created at 2022-10-14T22:06:41.962
+Unexpected IOException with stream: d
+
+# Created at 2022-10-14T22:06:41.963
+Unexpected IOException with stream: d
+
+# Created at 2022-10-14T22:06:41.963
+Unexpected IOException with stream: 3
+
+# Created at 2022-10-14T22:06:41.963
+Unexpected IOException with stream: 8
+
+# Created at 2022-10-14T22:06:41.963
+Unexpected IOException with stream: 2
+
+# Created at 2022-10-14T22:06:41.964
+Unexpected IOException with stream: 1
+
+# Created at 2022-10-14T22:06:41.964
+Unexpected IOException with stream: 2
+
+# Created at 2022-10-14T22:06:41.964
+Unexpected IOException with stream: a
+
+# Created at 2022-10-14T22:06:41.965
+Unexpected IOException with stream: 4
+
+# Created at 2022-10-14T22:06:41.965
+Unexpected IOException with stream: d
+
+# Created at 2022-10-14T22:06:41.965
+Unexpected IOException with stream: 0
+
+# Created at 2022-10-14T22:06:41.966
+Unexpected IOException with stream: -
+
+# Created at 2022-10-14T22:06:41.966
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:41.966
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:41.966
+Unexpected IOException with stream: f
+
+# Created at 2022-10-14T22:06:41.967
+Unexpected IOException with stream: s
+
+# Created at 2022-10-14T22:06:41.967
+Unexpected IOException with stream: /
+
+# Created at 2022-10-14T22:06:41.967
+Unexpected IOException with stream: b
+
+# Created at 2022-10-14T22:06:41.967
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:41.968
+Unexpected IOException with stream: a
+
+# Created at 2022-10-14T22:06:41.968
+Unexpected IOException with stream: n
+
+# Created at 2022-10-14T22:06:41.968
+Unexpected IOException with stream: c
+
+# Created at 2022-10-14T22:06:41.968
+Unexpected IOException with stream: h
+
+# Created at 2022-10-14T22:06:41.969
+Unexpected IOException with stream: -
+
+# Created at 2022-10-14T22:06:41.969
+Unexpected IOException with stream: h
+
+# Created at 2022-10-14T22:06:41.969
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:41.969
+Unexpected IOException with stream: a
+
+# Created at 2022-10-14T22:06:41.969
+Unexpected IOException with stream: d
+
+# Created at 2022-10-14T22:06:41.970
+Unexpected IOException with stream: s
+
+# Created at 2022-10-14T22:06:41.970
+Unexpected IOException with stream: /
+
+# Created at 2022-10-14T22:06:41.970
+Unexpected IOException with stream: 5
+
+# Created at 2022-10-14T22:06:41.970
+Unexpected IOException with stream: 2
+
+# Created at 2022-10-14T22:06:41.971
+Unexpected IOException with stream: 4
+
+# Created at 2022-10-14T22:06:41.971
+Unexpected IOException with stream: 9
+
+# Created at 2022-10-14T22:06:41.971
+Unexpected IOException with stream: @
+
+# Created at 2022-10-14T22:06:41.971
+Unexpected IOException with stream: {
+
+# Created at 2022-10-14T22:06:41.971
+Unexpected IOException with stream: #
+
+# Created at 2022-10-14T22:06:41.972
+Unexpected IOException with stream: 5
+
+# Created at 2022-10-14T22:06:41.972
+Unexpected IOException with stream: 6
+
+# Created at 2022-10-14T22:06:41.972
+Unexpected IOException with stream: 9
+
+# Created at 2022-10-14T22:06:41.972
+Unexpected IOException with stream: }
+
+# Created at 2022-10-14T22:06:41.973
+Unexpected IOException with stream: )
+
+# Created at 2022-10-14T22:06:41.973
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:41.973
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:41.973
+Unexpected IOException with stream: n
+
+# Created at 2022-10-14T22:06:41.974
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:41.974
+Unexpected IOException with stream: p
+
+# Created at 2022-10-14T22:06:41.974
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:41.974
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:41.975
+Unexpected IOException with stream: t
+
+# Created at 2022-10-14T22:06:41.975
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:41.975
+Unexpected IOException with stream: 4
+
+# Created at 2022-10-14T22:06:41.975
+Unexpected IOException with stream: 9
+
+# Created at 2022-10-14T22:06:41.975
+Unexpected IOException with stream: 2
+
+# Created at 2022-10-14T22:06:41.976
+Unexpected IOException with stream: 0
+
+# Created at 2022-10-14T22:06:41.976
+Unexpected IOException with stream: 0
+
+# Created at 2022-10-14T22:06:41.976
+Unexpected IOException with stream: 
+
+# Created at 2022-10-14T22:06:41.976
+Unexpected IOException with stream: 
+
+
+# Created at 2022-10-14T22:06:41.977
+Unexpected IOException with stream: O
+
+# Created at 2022-10-14T22:06:41.977
+Unexpected IOException with stream: n
+
+# Created at 2022-10-14T22:06:41.977
+Unexpected IOException with stream: l
+
+# Created at 2022-10-14T22:06:41.977
+Unexpected IOException with stream: y
+
+# Created at 2022-10-14T22:06:41.977
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:41.978
+Unexpected IOException with stream: l
+
+# Created at 2022-10-14T22:06:41.978
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:41.978
+Unexpected IOException with stream: c
+
+# Created at 2022-10-14T22:06:41.978
+Unexpected IOException with stream: a
+
+# Created at 2022-10-14T22:06:41.979
+Unexpected IOException with stream: l
+
+# Created at 2022-10-14T22:06:41.979
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:41.979
+Unexpected IOException with stream: c
+
+# Created at 2022-10-14T22:06:41.979
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:41.980
+Unexpected IOException with stream: n
+
+# Created at 2022-10-14T22:06:41.980
+Unexpected IOException with stream: n
+
+# Created at 2022-10-14T22:06:41.980
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:41.981
+Unexpected IOException with stream: c
+
+# Created at 2022-10-14T22:06:41.981
+Unexpected IOException with stream: t
+
+# Created at 2022-10-14T22:06:41.981
+Unexpected IOException with stream: i
+
+# Created at 2022-10-14T22:06:41.981
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:41.981
+Unexpected IOException with stream: n
+
+# Created at 2022-10-14T22:06:41.982
+Unexpected IOException with stream: s
+
+# Created at 2022-10-14T22:06:41.982
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:41.982
+Unexpected IOException with stream: a
+
+# Created at 2022-10-14T22:06:41.982
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:41.983
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:41.983
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:41.983
+Unexpected IOException with stream: a
+
+# Created at 2022-10-14T22:06:41.983
+Unexpected IOException with stream: l
+
+# Created at 2022-10-14T22:06:41.984
+Unexpected IOException with stream: l
+
+# Created at 2022-10-14T22:06:41.984
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:41.984
+Unexpected IOException with stream: w
+
+# Created at 2022-10-14T22:06:41.984
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:41.984
+Unexpected IOException with stream: d
+
+# Created at 2022-10-14T22:06:41.985
+Unexpected IOException with stream: .
+
+# Created at 2022-10-14T22:06:41.985
+Unexpected IOException with stream: 
+
+# Created at 2022-10-14T22:06:41.985
+Unexpected IOException with stream: 
+
+
+# Created at 2022-10-14T22:06:41.985
+Unexpected IOException with stream: P
+
+# Created at 2022-10-14T22:06:41.986
+Unexpected IOException with stream: l
+
+# Created at 2022-10-14T22:06:41.986
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:41.986
+Unexpected IOException with stream: a
+
+# Created at 2022-10-14T22:06:41.986
+Unexpected IOException with stream: s
+
+# Created at 2022-10-14T22:06:41.986
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:41.987
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:41.987
+Unexpected IOException with stream: s
+
+# Created at 2022-10-14T22:06:41.987
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:41.987
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:41.988
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:41.988
+Unexpected IOException with stream: h
+
+# Created at 2022-10-14T22:06:41.988
+Unexpected IOException with stream: t
+
+# Created at 2022-10-14T22:06:41.988
+Unexpected IOException with stream: t
+
+# Created at 2022-10-14T22:06:41.989
+Unexpected IOException with stream: p
+
+# Created at 2022-10-14T22:06:41.989
+Unexpected IOException with stream: s
+
+# Created at 2022-10-14T22:06:41.990
+Unexpected IOException with stream: :
+
+# Created at 2022-10-14T22:06:41.990
+Unexpected IOException with stream: /
+
+# Created at 2022-10-14T22:06:41.990
+Unexpected IOException with stream: /
+
+# Created at 2022-10-14T22:06:41.990
+Unexpected IOException with stream: c
+
+# Created at 2022-10-14T22:06:41.991
+Unexpected IOException with stream: h
+
+# Created at 2022-10-14T22:06:41.991
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:41.991
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:41.991
+Unexpected IOException with stream: m
+
+# Created at 2022-10-14T22:06:41.991
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:41.992
+Unexpected IOException with stream: d
+
+# Created at 2022-10-14T22:06:41.992
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:41.992
+Unexpected IOException with stream: i
+
+# Created at 2022-10-14T22:06:41.992
+Unexpected IOException with stream: v
+
+# Created at 2022-10-14T22:06:41.993
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:41.993
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:41.993
+Unexpected IOException with stream: .
+
+# Created at 2022-10-14T22:06:41.993
+Unexpected IOException with stream: c
+
+# Created at 2022-10-14T22:06:41.993
+Unexpected IOException with stream: h
+
+# Created at 2022-10-14T22:06:41.994
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:41.994
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:41.994
+Unexpected IOException with stream: m
+
+# Created at 2022-10-14T22:06:41.995
+Unexpected IOException with stream: i
+
+# Created at 2022-10-14T22:06:41.995
+Unexpected IOException with stream: u
+
+# Created at 2022-10-14T22:06:41.995
+Unexpected IOException with stream: m
+
+# Created at 2022-10-14T22:06:41.995
+Unexpected IOException with stream: .
+
+# Created at 2022-10-14T22:06:41.995
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:41.996
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:41.996
+Unexpected IOException with stream: g
+
+# Created at 2022-10-14T22:06:41.996
+Unexpected IOException with stream: /
+
+# Created at 2022-10-14T22:06:41.996
+Unexpected IOException with stream: s
+
+# Created at 2022-10-14T22:06:41.996
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:41.997
+Unexpected IOException with stream: c
+
+# Created at 2022-10-14T22:06:41.997
+Unexpected IOException with stream: u
+
+# Created at 2022-10-14T22:06:41.997
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:41.997
+Unexpected IOException with stream: i
+
+# Created at 2022-10-14T22:06:41.998
+Unexpected IOException with stream: t
+
+# Created at 2022-10-14T22:06:41.998
+Unexpected IOException with stream: y
+
+# Created at 2022-10-14T22:06:41.998
+Unexpected IOException with stream: -
+
+# Created at 2022-10-14T22:06:41.998
+Unexpected IOException with stream: c
+
+# Created at 2022-10-14T22:06:41.998
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:41.999
+Unexpected IOException with stream: n
+
+# Created at 2022-10-14T22:06:41.999
+Unexpected IOException with stream: s
+
+# Created at 2022-10-14T22:06:41.999
+Unexpected IOException with stream: i
+
+# Created at 2022-10-14T22:06:41.999
+Unexpected IOException with stream: d
+
+# Created at 2022-10-14T22:06:41.999
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.000
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.000
+Unexpected IOException with stream: a
+
+# Created at 2022-10-14T22:06:42.000
+Unexpected IOException with stream: t
+
+# Created at 2022-10-14T22:06:42.000
+Unexpected IOException with stream: i
+
+# Created at 2022-10-14T22:06:42.000
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:42.001
+Unexpected IOException with stream: n
+
+# Created at 2022-10-14T22:06:42.001
+Unexpected IOException with stream: s
+
+# Created at 2022-10-14T22:06:42.001
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.001
+Unexpected IOException with stream: f
+
+# Created at 2022-10-14T22:06:42.002
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:42.002
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.002
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.002
+Unexpected IOException with stream: s
+
+# Created at 2022-10-14T22:06:42.002
+Unexpected IOException with stream: u
+
+# Created at 2022-10-14T22:06:42.003
+Unexpected IOException with stream: g
+
+# Created at 2022-10-14T22:06:42.003
+Unexpected IOException with stream: g
+
+# Created at 2022-10-14T22:06:42.003
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.004
+Unexpected IOException with stream: s
+
+# Created at 2022-10-14T22:06:42.004
+Unexpected IOException with stream: t
+
+# Created at 2022-10-14T22:06:42.004
+Unexpected IOException with stream: i
+
+# Created at 2022-10-14T22:06:42.004
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:42.004
+Unexpected IOException with stream: n
+
+# Created at 2022-10-14T22:06:42.005
+Unexpected IOException with stream: s
+
+# Created at 2022-10-14T22:06:42.005
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.005
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:42.005
+Unexpected IOException with stream: n
+
+# Created at 2022-10-14T22:06:42.005
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.006
+Unexpected IOException with stream: k
+
+# Created at 2022-10-14T22:06:42.006
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.006
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.006
+Unexpected IOException with stream: p
+
+# Created at 2022-10-14T22:06:42.006
+Unexpected IOException with stream: i
+
+# Created at 2022-10-14T22:06:42.007
+Unexpected IOException with stream: n
+
+# Created at 2022-10-14T22:06:42.007
+Unexpected IOException with stream: g
+
+# Created at 2022-10-14T22:06:42.007
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.007
+Unexpected IOException with stream: C
+
+# Created at 2022-10-14T22:06:42.008
+Unexpected IOException with stream: h
+
+# Created at 2022-10-14T22:06:42.008
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.008
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:42.009
+Unexpected IOException with stream: m
+
+# Created at 2022-10-14T22:06:42.009
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.009
+Unexpected IOException with stream: D
+
+# Created at 2022-10-14T22:06:42.009
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.010
+Unexpected IOException with stream: i
+
+# Created at 2022-10-14T22:06:42.010
+Unexpected IOException with stream: v
+
+# Created at 2022-10-14T22:06:42.010
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.010
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.010
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.011
+Unexpected IOException with stream: s
+
+# Created at 2022-10-14T22:06:42.011
+Unexpected IOException with stream: a
+
+# Created at 2022-10-14T22:06:42.011
+Unexpected IOException with stream: f
+
+# Created at 2022-10-14T22:06:42.011
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.012
+Unexpected IOException with stream: .
+
+# Created at 2022-10-14T22:06:42.012
+Unexpected IOException with stream: 
+
+# Created at 2022-10-14T22:06:42.012
+Unexpected IOException with stream: 
+
+
+# Created at 2022-10-14T22:06:42.012
+Unexpected IOException with stream: C
+
+# Created at 2022-10-14T22:06:42.012
+Unexpected IOException with stream: h
+
+# Created at 2022-10-14T22:06:42.013
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.013
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:42.013
+Unexpected IOException with stream: m
+
+# Created at 2022-10-14T22:06:42.013
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.013
+Unexpected IOException with stream: D
+
+# Created at 2022-10-14T22:06:42.014
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.014
+Unexpected IOException with stream: i
+
+# Created at 2022-10-14T22:06:42.014
+Unexpected IOException with stream: v
+
+# Created at 2022-10-14T22:06:42.015
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.015
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.015
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.015
+Unexpected IOException with stream: w
+
+# Created at 2022-10-14T22:06:42.016
+Unexpected IOException with stream: a
+
+# Created at 2022-10-14T22:06:42.016
+Unexpected IOException with stream: s
+
+# Created at 2022-10-14T22:06:42.016
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.016
+Unexpected IOException with stream: s
+
+# Created at 2022-10-14T22:06:42.017
+Unexpected IOException with stream: t
+
+# Created at 2022-10-14T22:06:42.017
+Unexpected IOException with stream: a
+
+# Created at 2022-10-14T22:06:42.017
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.017
+Unexpected IOException with stream: t
+
+# Created at 2022-10-14T22:06:42.018
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.018
+Unexpected IOException with stream: d
+
+# Created at 2022-10-14T22:06:42.018
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.018
+Unexpected IOException with stream: s
+
+# Created at 2022-10-14T22:06:42.019
+Unexpected IOException with stream: u
+
+# Created at 2022-10-14T22:06:42.019
+Unexpected IOException with stream: c
+
+# Created at 2022-10-14T22:06:42.019
+Unexpected IOException with stream: c
+
+# Created at 2022-10-14T22:06:42.019
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.019
+Unexpected IOException with stream: s
+
+# Created at 2022-10-14T22:06:42.020
+Unexpected IOException with stream: s
+
+# Created at 2022-10-14T22:06:42.020
+Unexpected IOException with stream: f
+
+# Created at 2022-10-14T22:06:42.020
+Unexpected IOException with stream: u
+
+# Created at 2022-10-14T22:06:42.020
+Unexpected IOException with stream: l
+
+# Created at 2022-10-14T22:06:42.021
+Unexpected IOException with stream: l
+
+# Created at 2022-10-14T22:06:42.021
+Unexpected IOException with stream: y
+
+# Created at 2022-10-14T22:06:42.021
+Unexpected IOException with stream: .
+
+# Created at 2022-10-14T22:06:42.021
+Unexpected IOException with stream: 
+
+# Created at 2022-10-14T22:06:42.022
+Unexpected IOException with stream: 
+
+
+# Created at 2022-10-14T22:06:42.022
+Unexpected IOException with stream: Eki 14, 2022 10:06:02 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+
+# Created at 2022-10-14T22:06:42.022
+Unexpected IOException with stream: Eki 14, 2022 10:06:02 ÖS org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 106, so returning the closest version found: a no-op implementation
+
+
+# Created at 2022-10-14T22:06:42.022
+Unexpected IOException with stream: Eki 14, 2022 10:06:02 ÖS org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 106.
+
+
+# Created at 2022-10-14T22:06:42.023
+Unexpected IOException with stream: Eki 14, 2022 10:06:02 ÖS org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.2` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+
+
+# Created at 2022-10-14T22:06:42.023
+Unexpected IOException with stream: [
+
+# Created at 2022-10-14T22:06:42.023
+Unexpected IOException with stream: 1
+
+# Created at 2022-10-14T22:06:42.023
+Unexpected IOException with stream: 6
+
+# Created at 2022-10-14T22:06:42.024
+Unexpected IOException with stream: 6
+
+# Created at 2022-10-14T22:06:42.024
+Unexpected IOException with stream: 5
+
+# Created at 2022-10-14T22:06:42.024
+Unexpected IOException with stream: 7
+
+# Created at 2022-10-14T22:06:42.024
+Unexpected IOException with stream: 7
+
+# Created at 2022-10-14T22:06:42.024
+Unexpected IOException with stream: 4
+
+# Created at 2022-10-14T22:06:42.024
+Unexpected IOException with stream: 3
+
+# Created at 2022-10-14T22:06:42.024
+Unexpected IOException with stream: 7
+
+# Created at 2022-10-14T22:06:42.026
+Unexpected IOException with stream: 2
+
+# Created at 2022-10-14T22:06:42.026
+Unexpected IOException with stream: .
+
+# Created at 2022-10-14T22:06:42.026
+Unexpected IOException with stream: 1
+
+# Created at 2022-10-14T22:06:42.027
+Unexpected IOException with stream: 7
+
+# Created at 2022-10-14T22:06:42.027
+Unexpected IOException with stream: 3
+
+# Created at 2022-10-14T22:06:42.027
+Unexpected IOException with stream: ]
+
+# Created at 2022-10-14T22:06:42.027
+Unexpected IOException with stream: [
+
+# Created at 2022-10-14T22:06:42.027
+Unexpected IOException with stream: W
+
+# Created at 2022-10-14T22:06:42.027
+Unexpected IOException with stream: A
+
+# Created at 2022-10-14T22:06:42.028
+Unexpected IOException with stream: R
+
+# Created at 2022-10-14T22:06:42.028
+Unexpected IOException with stream: N
+
+# Created at 2022-10-14T22:06:42.028
+Unexpected IOException with stream: I
+
+# Created at 2022-10-14T22:06:42.028
+Unexpected IOException with stream: N
+
+# Created at 2022-10-14T22:06:42.028
+Unexpected IOException with stream: G
+
+# Created at 2022-10-14T22:06:42.029
+Unexpected IOException with stream: ]
+
+# Created at 2022-10-14T22:06:42.029
+Unexpected IOException with stream: :
+
+# Created at 2022-10-14T22:06:42.029
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.029
+Unexpected IOException with stream: T
+
+# Created at 2022-10-14T22:06:42.030
+Unexpected IOException with stream: i
+
+# Created at 2022-10-14T22:06:42.030
+Unexpected IOException with stream: m
+
+# Created at 2022-10-14T22:06:42.030
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.030
+Unexpected IOException with stream: d
+
+# Created at 2022-10-14T22:06:42.030
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.031
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:42.031
+Unexpected IOException with stream: u
+
+# Created at 2022-10-14T22:06:42.031
+Unexpected IOException with stream: t
+
+# Created at 2022-10-14T22:06:42.031
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.031
+Unexpected IOException with stream: c
+
+# Created at 2022-10-14T22:06:42.032
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:42.032
+Unexpected IOException with stream: n
+
+# Created at 2022-10-14T22:06:42.032
+Unexpected IOException with stream: n
+
+# Created at 2022-10-14T22:06:42.032
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.032
+Unexpected IOException with stream: c
+
+# Created at 2022-10-14T22:06:42.033
+Unexpected IOException with stream: t
+
+# Created at 2022-10-14T22:06:42.033
+Unexpected IOException with stream: i
+
+# Created at 2022-10-14T22:06:42.033
+Unexpected IOException with stream: n
+
+# Created at 2022-10-14T22:06:42.033
+Unexpected IOException with stream: g
+
+# Created at 2022-10-14T22:06:42.033
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.033
+Unexpected IOException with stream: t
+
+# Created at 2022-10-14T22:06:42.034
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:42.034
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.034
+Unexpected IOException with stream: C
+
+# Created at 2022-10-14T22:06:42.034
+Unexpected IOException with stream: h
+
+# Created at 2022-10-14T22:06:42.034
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.035
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:42.035
+Unexpected IOException with stream: m
+
+# Created at 2022-10-14T22:06:42.035
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.035
+Unexpected IOException with stream: ,
+
+# Created at 2022-10-14T22:06:42.035
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.036
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.036
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.036
+Unexpected IOException with stream: t
+
+# Created at 2022-10-14T22:06:42.036
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.037
+Unexpected IOException with stream: y
+
+# Created at 2022-10-14T22:06:42.037
+Unexpected IOException with stream: i
+
+# Created at 2022-10-14T22:06:42.037
+Unexpected IOException with stream: n
+
+# Created at 2022-10-14T22:06:42.037
+Unexpected IOException with stream: g
+
+# Created at 2022-10-14T22:06:42.037
+Unexpected IOException with stream: .
+
+# Created at 2022-10-14T22:06:42.037
+Unexpected IOException with stream: .
+
+# Created at 2022-10-14T22:06:42.038
+Unexpected IOException with stream: .
+
+# Created at 2022-10-14T22:06:42.038
+Unexpected IOException with stream: 
+
+# Created at 2022-10-14T22:06:42.038
+Unexpected IOException with stream: 
+
+
+# Created at 2022-10-14T22:06:42.038
+Unexpected IOException with stream: [
+
+# Created at 2022-10-14T22:06:42.038
+Unexpected IOException with stream: 1
+
+# Created at 2022-10-14T22:06:42.039
+Unexpected IOException with stream: 6
+
+# Created at 2022-10-14T22:06:42.039
+Unexpected IOException with stream: 6
+
+# Created at 2022-10-14T22:06:42.039
+Unexpected IOException with stream: 5
+
+# Created at 2022-10-14T22:06:42.039
+Unexpected IOException with stream: 7
+
+# Created at 2022-10-14T22:06:42.039
+Unexpected IOException with stream: 7
+
+# Created at 2022-10-14T22:06:42.040
+Unexpected IOException with stream: 4
+
+# Created at 2022-10-14T22:06:42.040
+Unexpected IOException with stream: 3
+
+# Created at 2022-10-14T22:06:42.040
+Unexpected IOException with stream: 8
+
+# Created at 2022-10-14T22:06:42.040
+Unexpected IOException with stream: 0
+
+# Created at 2022-10-14T22:06:42.040
+Unexpected IOException with stream: .
+
+# Created at 2022-10-14T22:06:42.041
+Unexpected IOException with stream: 2
+
+# Created at 2022-10-14T22:06:42.041
+Unexpected IOException with stream: 9
+
+# Created at 2022-10-14T22:06:42.041
+Unexpected IOException with stream: 0
+
+# Created at 2022-10-14T22:06:42.041
+Unexpected IOException with stream: ]
+
+# Created at 2022-10-14T22:06:42.041
+Unexpected IOException with stream: [
+
+# Created at 2022-10-14T22:06:42.042
+Unexpected IOException with stream: W
+
+# Created at 2022-10-14T22:06:42.042
+Unexpected IOException with stream: A
+
+# Created at 2022-10-14T22:06:42.042
+Unexpected IOException with stream: R
+
+# Created at 2022-10-14T22:06:42.042
+Unexpected IOException with stream: N
+
+# Created at 2022-10-14T22:06:42.042
+Unexpected IOException with stream: I
+
+# Created at 2022-10-14T22:06:42.043
+Unexpected IOException with stream: N
+
+# Created at 2022-10-14T22:06:42.043
+Unexpected IOException with stream: G
+
+# Created at 2022-10-14T22:06:42.043
+Unexpected IOException with stream: ]
+
+# Created at 2022-10-14T22:06:42.043
+Unexpected IOException with stream: :
+
+# Created at 2022-10-14T22:06:42.043
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.044
+Unexpected IOException with stream: T
+
+# Created at 2022-10-14T22:06:42.044
+Unexpected IOException with stream: i
+
+# Created at 2022-10-14T22:06:42.044
+Unexpected IOException with stream: m
+
+# Created at 2022-10-14T22:06:42.044
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.044
+Unexpected IOException with stream: d
+
+# Created at 2022-10-14T22:06:42.045
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.045
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:42.045
+Unexpected IOException with stream: u
+
+# Created at 2022-10-14T22:06:42.045
+Unexpected IOException with stream: t
+
+# Created at 2022-10-14T22:06:42.046
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.046
+Unexpected IOException with stream: c
+
+# Created at 2022-10-14T22:06:42.046
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:42.046
+Unexpected IOException with stream: n
+
+# Created at 2022-10-14T22:06:42.047
+Unexpected IOException with stream: n
+
+# Created at 2022-10-14T22:06:42.047
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.047
+Unexpected IOException with stream: c
+
+# Created at 2022-10-14T22:06:42.047
+Unexpected IOException with stream: t
+
+# Created at 2022-10-14T22:06:42.048
+Unexpected IOException with stream: i
+
+# Created at 2022-10-14T22:06:42.048
+Unexpected IOException with stream: n
+
+# Created at 2022-10-14T22:06:42.048
+Unexpected IOException with stream: g
+
+# Created at 2022-10-14T22:06:42.048
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.048
+Unexpected IOException with stream: t
+
+# Created at 2022-10-14T22:06:42.049
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:42.049
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.049
+Unexpected IOException with stream: C
+
+# Created at 2022-10-14T22:06:42.049
+Unexpected IOException with stream: h
+
+# Created at 2022-10-14T22:06:42.049
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.050
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:42.050
+Unexpected IOException with stream: m
+
+# Created at 2022-10-14T22:06:42.050
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.050
+Unexpected IOException with stream: ,
+
+# Created at 2022-10-14T22:06:42.050
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.051
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.051
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.051
+Unexpected IOException with stream: t
+
+# Created at 2022-10-14T22:06:42.051
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.051
+Unexpected IOException with stream: y
+
+# Created at 2022-10-14T22:06:42.051
+Unexpected IOException with stream: i
+
+# Created at 2022-10-14T22:06:42.052
+Unexpected IOException with stream: n
+
+# Created at 2022-10-14T22:06:42.052
+Unexpected IOException with stream: g
+
+# Created at 2022-10-14T22:06:42.052
+Unexpected IOException with stream: .
+
+# Created at 2022-10-14T22:06:42.052
+Unexpected IOException with stream: .
+
+# Created at 2022-10-14T22:06:42.052
+Unexpected IOException with stream: .
+
+# Created at 2022-10-14T22:06:42.053
+Unexpected IOException with stream: 
+
+# Created at 2022-10-14T22:06:42.053
+Unexpected IOException with stream: 
+
+
+# Created at 2022-10-14T22:06:42.053
+Unexpected IOException with stream: S
+
+# Created at 2022-10-14T22:06:42.053
+Unexpected IOException with stream: t
+
+# Created at 2022-10-14T22:06:42.053
+Unexpected IOException with stream: a
+
+# Created at 2022-10-14T22:06:42.054
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.054
+Unexpected IOException with stream: t
+
+# Created at 2022-10-14T22:06:42.054
+Unexpected IOException with stream: i
+
+# Created at 2022-10-14T22:06:42.054
+Unexpected IOException with stream: n
+
+# Created at 2022-10-14T22:06:42.054
+Unexpected IOException with stream: g
+
+# Created at 2022-10-14T22:06:42.054
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.055
+Unexpected IOException with stream: C
+
+# Created at 2022-10-14T22:06:42.055
+Unexpected IOException with stream: h
+
+# Created at 2022-10-14T22:06:42.055
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.055
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:42.055
+Unexpected IOException with stream: m
+
+# Created at 2022-10-14T22:06:42.056
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.056
+Unexpected IOException with stream: D
+
+# Created at 2022-10-14T22:06:42.056
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.056
+Unexpected IOException with stream: i
+
+# Created at 2022-10-14T22:06:42.056
+Unexpected IOException with stream: v
+
+# Created at 2022-10-14T22:06:42.056
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.057
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.057
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.057
+Unexpected IOException with stream: 1
+
+# Created at 2022-10-14T22:06:42.057
+Unexpected IOException with stream: 0
+
+# Created at 2022-10-14T22:06:42.057
+Unexpected IOException with stream: 6
+
+# Created at 2022-10-14T22:06:42.058
+Unexpected IOException with stream: .
+
+# Created at 2022-10-14T22:06:42.058
+Unexpected IOException with stream: 0
+
+# Created at 2022-10-14T22:06:42.058
+Unexpected IOException with stream: .
+
+# Created at 2022-10-14T22:06:42.058
+Unexpected IOException with stream: 5
+
+# Created at 2022-10-14T22:06:42.058
+Unexpected IOException with stream: 2
+
+# Created at 2022-10-14T22:06:42.058
+Unexpected IOException with stream: 4
+
+# Created at 2022-10-14T22:06:42.059
+Unexpected IOException with stream: 9
+
+# Created at 2022-10-14T22:06:42.059
+Unexpected IOException with stream: .
+
+# Created at 2022-10-14T22:06:42.059
+Unexpected IOException with stream: 6
+
+# Created at 2022-10-14T22:06:42.059
+Unexpected IOException with stream: 1
+
+# Created at 2022-10-14T22:06:42.059
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.060
+Unexpected IOException with stream: (
+
+# Created at 2022-10-14T22:06:42.060
+Unexpected IOException with stream: 5
+
+# Created at 2022-10-14T22:06:42.060
+Unexpected IOException with stream: 1
+
+# Created at 2022-10-14T22:06:42.060
+Unexpected IOException with stream: 1
+
+# Created at 2022-10-14T22:06:42.060
+Unexpected IOException with stream: 7
+
+# Created at 2022-10-14T22:06:42.060
+Unexpected IOException with stream: 5
+
+# Created at 2022-10-14T22:06:42.061
+Unexpected IOException with stream: 5
+
+# Created at 2022-10-14T22:06:42.061
+Unexpected IOException with stream: 3
+
+# Created at 2022-10-14T22:06:42.061
+Unexpected IOException with stream: 5
+
+# Created at 2022-10-14T22:06:42.061
+Unexpected IOException with stream: 5
+
+# Created at 2022-10-14T22:06:42.061
+Unexpected IOException with stream: 8
+
+# Created at 2022-10-14T22:06:42.062
+Unexpected IOException with stream: 4
+
+# Created at 2022-10-14T22:06:42.062
+Unexpected IOException with stream: 4
+
+# Created at 2022-10-14T22:06:42.062
+Unexpected IOException with stream: 9
+
+# Created at 2022-10-14T22:06:42.062
+Unexpected IOException with stream: 5
+
+# Created at 2022-10-14T22:06:42.062
+Unexpected IOException with stream: 5
+
+# Created at 2022-10-14T22:06:42.062
+Unexpected IOException with stream: c
+
+# Created at 2022-10-14T22:06:42.063
+Unexpected IOException with stream: d
+
+# Created at 2022-10-14T22:06:42.063
+Unexpected IOException with stream: 3
+
+# Created at 2022-10-14T22:06:42.063
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.063
+Unexpected IOException with stream: 2
+
+# Created at 2022-10-14T22:06:42.063
+Unexpected IOException with stream: 6
+
+# Created at 2022-10-14T22:06:42.063
+Unexpected IOException with stream: 4
+
+# Created at 2022-10-14T22:06:42.064
+Unexpected IOException with stream: 7
+
+# Created at 2022-10-14T22:06:42.064
+Unexpected IOException with stream: 7
+
+# Created at 2022-10-14T22:06:42.064
+Unexpected IOException with stream: 9
+
+# Created at 2022-10-14T22:06:42.064
+Unexpected IOException with stream: b
+
+# Created at 2022-10-14T22:06:42.064
+Unexpected IOException with stream: a
+
+# Created at 2022-10-14T22:06:42.065
+Unexpected IOException with stream: f
+
+# Created at 2022-10-14T22:06:42.065
+Unexpected IOException with stream: 0
+
+# Created at 2022-10-14T22:06:42.065
+Unexpected IOException with stream: d
+
+# Created at 2022-10-14T22:06:42.065
+Unexpected IOException with stream: d
+
+# Created at 2022-10-14T22:06:42.065
+Unexpected IOException with stream: 3
+
+# Created at 2022-10-14T22:06:42.065
+Unexpected IOException with stream: 8
+
+# Created at 2022-10-14T22:06:42.066
+Unexpected IOException with stream: 2
+
+# Created at 2022-10-14T22:06:42.066
+Unexpected IOException with stream: 1
+
+# Created at 2022-10-14T22:06:42.066
+Unexpected IOException with stream: 2
+
+# Created at 2022-10-14T22:06:42.066
+Unexpected IOException with stream: a
+
+# Created at 2022-10-14T22:06:42.066
+Unexpected IOException with stream: 4
+
+# Created at 2022-10-14T22:06:42.067
+Unexpected IOException with stream: d
+
+# Created at 2022-10-14T22:06:42.067
+Unexpected IOException with stream: 0
+
+# Created at 2022-10-14T22:06:42.067
+Unexpected IOException with stream: -
+
+# Created at 2022-10-14T22:06:42.067
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.067
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.068
+Unexpected IOException with stream: f
+
+# Created at 2022-10-14T22:06:42.068
+Unexpected IOException with stream: s
+
+# Created at 2022-10-14T22:06:42.068
+Unexpected IOException with stream: /
+
+# Created at 2022-10-14T22:06:42.068
+Unexpected IOException with stream: b
+
+# Created at 2022-10-14T22:06:42.068
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.068
+Unexpected IOException with stream: a
+
+# Created at 2022-10-14T22:06:42.069
+Unexpected IOException with stream: n
+
+# Created at 2022-10-14T22:06:42.069
+Unexpected IOException with stream: c
+
+# Created at 2022-10-14T22:06:42.069
+Unexpected IOException with stream: h
+
+# Created at 2022-10-14T22:06:42.069
+Unexpected IOException with stream: -
+
+# Created at 2022-10-14T22:06:42.069
+Unexpected IOException with stream: h
+
+# Created at 2022-10-14T22:06:42.069
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.070
+Unexpected IOException with stream: a
+
+# Created at 2022-10-14T22:06:42.070
+Unexpected IOException with stream: d
+
+# Created at 2022-10-14T22:06:42.070
+Unexpected IOException with stream: s
+
+# Created at 2022-10-14T22:06:42.070
+Unexpected IOException with stream: /
+
+# Created at 2022-10-14T22:06:42.071
+Unexpected IOException with stream: 5
+
+# Created at 2022-10-14T22:06:42.071
+Unexpected IOException with stream: 2
+
+# Created at 2022-10-14T22:06:42.071
+Unexpected IOException with stream: 4
+
+# Created at 2022-10-14T22:06:42.071
+Unexpected IOException with stream: 9
+
+# Created at 2022-10-14T22:06:42.071
+Unexpected IOException with stream: @
+
+# Created at 2022-10-14T22:06:42.072
+Unexpected IOException with stream: {
+
+# Created at 2022-10-14T22:06:42.072
+Unexpected IOException with stream: #
+
+# Created at 2022-10-14T22:06:42.072
+Unexpected IOException with stream: 5
+
+# Created at 2022-10-14T22:06:42.072
+Unexpected IOException with stream: 6
+
+# Created at 2022-10-14T22:06:42.072
+Unexpected IOException with stream: 9
+
+# Created at 2022-10-14T22:06:42.073
+Unexpected IOException with stream: }
+
+# Created at 2022-10-14T22:06:42.073
+Unexpected IOException with stream: )
+
+# Created at 2022-10-14T22:06:42.073
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.073
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:42.074
+Unexpected IOException with stream: n
+
+# Created at 2022-10-14T22:06:42.074
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.074
+Unexpected IOException with stream: p
+
+# Created at 2022-10-14T22:06:42.074
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:42.075
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.075
+Unexpected IOException with stream: t
+
+# Created at 2022-10-14T22:06:42.075
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.075
+Unexpected IOException with stream: 6
+
+# Created at 2022-10-14T22:06:42.075
+Unexpected IOException with stream: 3
+
+# Created at 2022-10-14T22:06:42.076
+Unexpected IOException with stream: 1
+
+# Created at 2022-10-14T22:06:42.076
+Unexpected IOException with stream: 4
+
+# Created at 2022-10-14T22:06:42.076
+Unexpected IOException with stream: 9
+
+# Created at 2022-10-14T22:06:42.076
+Unexpected IOException with stream: 
+
+# Created at 2022-10-14T22:06:42.076
+Unexpected IOException with stream: 
+
+
+# Created at 2022-10-14T22:06:42.076
+Unexpected IOException with stream: O
+
+# Created at 2022-10-14T22:06:42.077
+Unexpected IOException with stream: n
+
+# Created at 2022-10-14T22:06:42.077
+Unexpected IOException with stream: l
+
+# Created at 2022-10-14T22:06:42.077
+Unexpected IOException with stream: y
+
+# Created at 2022-10-14T22:06:42.077
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.077
+Unexpected IOException with stream: l
+
+# Created at 2022-10-14T22:06:42.078
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:42.078
+Unexpected IOException with stream: c
+
+# Created at 2022-10-14T22:06:42.078
+Unexpected IOException with stream: a
+
+# Created at 2022-10-14T22:06:42.078
+Unexpected IOException with stream: l
+
+# Created at 2022-10-14T22:06:42.078
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.078
+Unexpected IOException with stream: c
+
+# Created at 2022-10-14T22:06:42.079
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:42.079
+Unexpected IOException with stream: n
+
+# Created at 2022-10-14T22:06:42.079
+Unexpected IOException with stream: n
+
+# Created at 2022-10-14T22:06:42.079
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.079
+Unexpected IOException with stream: c
+
+# Created at 2022-10-14T22:06:42.080
+Unexpected IOException with stream: t
+
+# Created at 2022-10-14T22:06:42.080
+Unexpected IOException with stream: i
+
+# Created at 2022-10-14T22:06:42.080
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:42.080
+Unexpected IOException with stream: n
+
+# Created at 2022-10-14T22:06:42.080
+Unexpected IOException with stream: s
+
+# Created at 2022-10-14T22:06:42.080
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.081
+Unexpected IOException with stream: a
+
+# Created at 2022-10-14T22:06:42.081
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.081
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.081
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.081
+Unexpected IOException with stream: a
+
+# Created at 2022-10-14T22:06:42.082
+Unexpected IOException with stream: l
+
+# Created at 2022-10-14T22:06:42.082
+Unexpected IOException with stream: l
+
+# Created at 2022-10-14T22:06:42.082
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:42.082
+Unexpected IOException with stream: w
+
+# Created at 2022-10-14T22:06:42.082
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.082
+Unexpected IOException with stream: d
+
+# Created at 2022-10-14T22:06:42.083
+Unexpected IOException with stream: .
+
+# Created at 2022-10-14T22:06:42.083
+Unexpected IOException with stream: 
+
+# Created at 2022-10-14T22:06:42.083
+Unexpected IOException with stream: 
+
+
+# Created at 2022-10-14T22:06:42.083
+Unexpected IOException with stream: P
+
+# Created at 2022-10-14T22:06:42.083
+Unexpected IOException with stream: l
+
+# Created at 2022-10-14T22:06:42.084
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.084
+Unexpected IOException with stream: a
+
+# Created at 2022-10-14T22:06:42.084
+Unexpected IOException with stream: s
+
+# Created at 2022-10-14T22:06:42.084
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.084
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.084
+Unexpected IOException with stream: s
+
+# Created at 2022-10-14T22:06:42.085
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.085
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.085
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.085
+Unexpected IOException with stream: h
+
+# Created at 2022-10-14T22:06:42.085
+Unexpected IOException with stream: t
+
+# Created at 2022-10-14T22:06:42.085
+Unexpected IOException with stream: t
+
+# Created at 2022-10-14T22:06:42.086
+Unexpected IOException with stream: p
+
+# Created at 2022-10-14T22:06:42.086
+Unexpected IOException with stream: s
+
+# Created at 2022-10-14T22:06:42.086
+Unexpected IOException with stream: :
+
+# Created at 2022-10-14T22:06:42.086
+Unexpected IOException with stream: /
+
+# Created at 2022-10-14T22:06:42.086
+Unexpected IOException with stream: /
+
+# Created at 2022-10-14T22:06:42.087
+Unexpected IOException with stream: c
+
+# Created at 2022-10-14T22:06:42.087
+Unexpected IOException with stream: h
+
+# Created at 2022-10-14T22:06:42.087
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.087
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:42.087
+Unexpected IOException with stream: m
+
+# Created at 2022-10-14T22:06:42.087
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.088
+Unexpected IOException with stream: d
+
+# Created at 2022-10-14T22:06:42.088
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.088
+Unexpected IOException with stream: i
+
+# Created at 2022-10-14T22:06:42.088
+Unexpected IOException with stream: v
+
+# Created at 2022-10-14T22:06:42.088
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.088
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.089
+Unexpected IOException with stream: .
+
+# Created at 2022-10-14T22:06:42.089
+Unexpected IOException with stream: c
+
+# Created at 2022-10-14T22:06:42.089
+Unexpected IOException with stream: h
+
+# Created at 2022-10-14T22:06:42.089
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.089
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:42.089
+Unexpected IOException with stream: m
+
+# Created at 2022-10-14T22:06:42.090
+Unexpected IOException with stream: i
+
+# Created at 2022-10-14T22:06:42.090
+Unexpected IOException with stream: u
+
+# Created at 2022-10-14T22:06:42.090
+Unexpected IOException with stream: m
+
+# Created at 2022-10-14T22:06:42.090
+Unexpected IOException with stream: .
+
+# Created at 2022-10-14T22:06:42.090
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:42.091
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.091
+Unexpected IOException with stream: g
+
+# Created at 2022-10-14T22:06:42.091
+Unexpected IOException with stream: /
+
+# Created at 2022-10-14T22:06:42.091
+Unexpected IOException with stream: s
+
+# Created at 2022-10-14T22:06:42.091
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.091
+Unexpected IOException with stream: c
+
+# Created at 2022-10-14T22:06:42.092
+Unexpected IOException with stream: u
+
+# Created at 2022-10-14T22:06:42.092
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.092
+Unexpected IOException with stream: i
+
+# Created at 2022-10-14T22:06:42.092
+Unexpected IOException with stream: t
+
+# Created at 2022-10-14T22:06:42.092
+Unexpected IOException with stream: y
+
+# Created at 2022-10-14T22:06:42.093
+Unexpected IOException with stream: -
+
+# Created at 2022-10-14T22:06:42.093
+Unexpected IOException with stream: c
+
+# Created at 2022-10-14T22:06:42.093
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:42.093
+Unexpected IOException with stream: n
+
+# Created at 2022-10-14T22:06:42.093
+Unexpected IOException with stream: s
+
+# Created at 2022-10-14T22:06:42.094
+Unexpected IOException with stream: i
+
+# Created at 2022-10-14T22:06:42.094
+Unexpected IOException with stream: d
+
+# Created at 2022-10-14T22:06:42.094
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.094
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.094
+Unexpected IOException with stream: a
+
+# Created at 2022-10-14T22:06:42.095
+Unexpected IOException with stream: t
+
+# Created at 2022-10-14T22:06:42.095
+Unexpected IOException with stream: i
+
+# Created at 2022-10-14T22:06:42.095
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:42.095
+Unexpected IOException with stream: n
+
+# Created at 2022-10-14T22:06:42.095
+Unexpected IOException with stream: s
+
+# Created at 2022-10-14T22:06:42.095
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.096
+Unexpected IOException with stream: f
+
+# Created at 2022-10-14T22:06:42.096
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:42.096
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.096
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.096
+Unexpected IOException with stream: s
+
+# Created at 2022-10-14T22:06:42.097
+Unexpected IOException with stream: u
+
+# Created at 2022-10-14T22:06:42.097
+Unexpected IOException with stream: g
+
+# Created at 2022-10-14T22:06:42.097
+Unexpected IOException with stream: g
+
+# Created at 2022-10-14T22:06:42.097
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.097
+Unexpected IOException with stream: s
+
+# Created at 2022-10-14T22:06:42.097
+Unexpected IOException with stream: t
+
+# Created at 2022-10-14T22:06:42.098
+Unexpected IOException with stream: i
+
+# Created at 2022-10-14T22:06:42.098
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:42.098
+Unexpected IOException with stream: n
+
+# Created at 2022-10-14T22:06:42.098
+Unexpected IOException with stream: s
+
+# Created at 2022-10-14T22:06:42.099
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.099
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:42.099
+Unexpected IOException with stream: n
+
+# Created at 2022-10-14T22:06:42.099
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.099
+Unexpected IOException with stream: k
+
+# Created at 2022-10-14T22:06:42.100
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.100
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.100
+Unexpected IOException with stream: p
+
+# Created at 2022-10-14T22:06:42.100
+Unexpected IOException with stream: i
+
+# Created at 2022-10-14T22:06:42.100
+Unexpected IOException with stream: n
+
+# Created at 2022-10-14T22:06:42.100
+Unexpected IOException with stream: g
+
+# Created at 2022-10-14T22:06:42.101
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.101
+Unexpected IOException with stream: C
+
+# Created at 2022-10-14T22:06:42.101
+Unexpected IOException with stream: h
+
+# Created at 2022-10-14T22:06:42.101
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.101
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:42.102
+Unexpected IOException with stream: m
+
+# Created at 2022-10-14T22:06:42.102
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.102
+Unexpected IOException with stream: D
+
+# Created at 2022-10-14T22:06:42.102
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.102
+Unexpected IOException with stream: i
+
+# Created at 2022-10-14T22:06:42.102
+Unexpected IOException with stream: v
+
+# Created at 2022-10-14T22:06:42.103
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.103
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.103
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.103
+Unexpected IOException with stream: s
+
+# Created at 2022-10-14T22:06:42.103
+Unexpected IOException with stream: a
+
+# Created at 2022-10-14T22:06:42.104
+Unexpected IOException with stream: f
+
+# Created at 2022-10-14T22:06:42.104
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.104
+Unexpected IOException with stream: .
+
+# Created at 2022-10-14T22:06:42.104
+Unexpected IOException with stream: 
+
+# Created at 2022-10-14T22:06:42.104
+Unexpected IOException with stream: 
+
+
+# Created at 2022-10-14T22:06:42.104
+Unexpected IOException with stream: C
+
+# Created at 2022-10-14T22:06:42.105
+Unexpected IOException with stream: h
+
+# Created at 2022-10-14T22:06:42.105
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.105
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:42.105
+Unexpected IOException with stream: m
+
+# Created at 2022-10-14T22:06:42.106
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.106
+Unexpected IOException with stream: D
+
+# Created at 2022-10-14T22:06:42.106
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.107
+Unexpected IOException with stream: i
+
+# Created at 2022-10-14T22:06:42.107
+Unexpected IOException with stream: v
+
+# Created at 2022-10-14T22:06:42.107
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.107
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.107
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.108
+Unexpected IOException with stream: w
+
+# Created at 2022-10-14T22:06:42.108
+Unexpected IOException with stream: a
+
+# Created at 2022-10-14T22:06:42.108
+Unexpected IOException with stream: s
+
+# Created at 2022-10-14T22:06:42.108
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.108
+Unexpected IOException with stream: s
+
+# Created at 2022-10-14T22:06:42.109
+Unexpected IOException with stream: t
+
+# Created at 2022-10-14T22:06:42.109
+Unexpected IOException with stream: a
+
+# Created at 2022-10-14T22:06:42.109
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.109
+Unexpected IOException with stream: t
+
+# Created at 2022-10-14T22:06:42.109
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.110
+Unexpected IOException with stream: d
+
+# Created at 2022-10-14T22:06:42.110
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.110
+Unexpected IOException with stream: s
+
+# Created at 2022-10-14T22:06:42.110
+Unexpected IOException with stream: u
+
+# Created at 2022-10-14T22:06:42.110
+Unexpected IOException with stream: c
+
+# Created at 2022-10-14T22:06:42.111
+Unexpected IOException with stream: c
+
+# Created at 2022-10-14T22:06:42.111
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.111
+Unexpected IOException with stream: s
+
+# Created at 2022-10-14T22:06:42.111
+Unexpected IOException with stream: s
+
+# Created at 2022-10-14T22:06:42.111
+Unexpected IOException with stream: f
+
+# Created at 2022-10-14T22:06:42.112
+Unexpected IOException with stream: u
+
+# Created at 2022-10-14T22:06:42.112
+Unexpected IOException with stream: l
+
+# Created at 2022-10-14T22:06:42.112
+Unexpected IOException with stream: l
+
+# Created at 2022-10-14T22:06:42.112
+Unexpected IOException with stream: y
+
+# Created at 2022-10-14T22:06:42.112
+Unexpected IOException with stream: .
+
+# Created at 2022-10-14T22:06:42.112
+Unexpected IOException with stream: 
+
+# Created at 2022-10-14T22:06:42.113
+Unexpected IOException with stream: 
+
+
+# Created at 2022-10-14T22:06:42.113
+Unexpected IOException with stream: Eki 14, 2022 10:06:25 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+
+# Created at 2022-10-14T22:06:42.113
+Unexpected IOException with stream: Eki 14, 2022 10:06:25 ÖS org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 106, so returning the closest version found: a no-op implementation
+
+
+# Created at 2022-10-14T22:06:42.113
+Unexpected IOException with stream: Eki 14, 2022 10:06:25 ÖS org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 106.
+
+
+# Created at 2022-10-14T22:06:42.114
+Unexpected IOException with stream: Eki 14, 2022 10:06:25 ÖS org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.2` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+
+
+# Created at 2022-10-14T22:06:42.114
+Unexpected IOException with stream: [
+
+# Created at 2022-10-14T22:06:42.114
+Unexpected IOException with stream: 1
+
+# Created at 2022-10-14T22:06:42.114
+Unexpected IOException with stream: 6
+
+# Created at 2022-10-14T22:06:42.114
+Unexpected IOException with stream: 6
+
+# Created at 2022-10-14T22:06:42.115
+Unexpected IOException with stream: 5
+
+# Created at 2022-10-14T22:06:42.115
+Unexpected IOException with stream: 7
+
+# Created at 2022-10-14T22:06:42.115
+Unexpected IOException with stream: 7
+
+# Created at 2022-10-14T22:06:42.115
+Unexpected IOException with stream: 4
+
+# Created at 2022-10-14T22:06:42.115
+Unexpected IOException with stream: 3
+
+# Created at 2022-10-14T22:06:42.116
+Unexpected IOException with stream: 8
+
+# Created at 2022-10-14T22:06:42.116
+Unexpected IOException with stream: 9
+
+# Created at 2022-10-14T22:06:42.116
+Unexpected IOException with stream: .
+
+# Created at 2022-10-14T22:06:42.116
+Unexpected IOException with stream: 7
+
+# Created at 2022-10-14T22:06:42.116
+Unexpected IOException with stream: 4
+
+# Created at 2022-10-14T22:06:42.117
+Unexpected IOException with stream: 2
+
+# Created at 2022-10-14T22:06:42.117
+Unexpected IOException with stream: ]
+
+# Created at 2022-10-14T22:06:42.117
+Unexpected IOException with stream: [
+
+# Created at 2022-10-14T22:06:42.117
+Unexpected IOException with stream: W
+
+# Created at 2022-10-14T22:06:42.117
+Unexpected IOException with stream: A
+
+# Created at 2022-10-14T22:06:42.117
+Unexpected IOException with stream: R
+
+# Created at 2022-10-14T22:06:42.118
+Unexpected IOException with stream: N
+
+# Created at 2022-10-14T22:06:42.118
+Unexpected IOException with stream: I
+
+# Created at 2022-10-14T22:06:42.118
+Unexpected IOException with stream: N
+
+# Created at 2022-10-14T22:06:42.118
+Unexpected IOException with stream: G
+
+# Created at 2022-10-14T22:06:42.118
+Unexpected IOException with stream: ]
+
+# Created at 2022-10-14T22:06:42.118
+Unexpected IOException with stream: :
+
+# Created at 2022-10-14T22:06:42.119
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.119
+Unexpected IOException with stream: T
+
+# Created at 2022-10-14T22:06:42.119
+Unexpected IOException with stream: i
+
+# Created at 2022-10-14T22:06:42.119
+Unexpected IOException with stream: m
+
+# Created at 2022-10-14T22:06:42.119
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.119
+Unexpected IOException with stream: d
+
+# Created at 2022-10-14T22:06:42.120
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.120
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:42.120
+Unexpected IOException with stream: u
+
+# Created at 2022-10-14T22:06:42.120
+Unexpected IOException with stream: t
+
+# Created at 2022-10-14T22:06:42.120
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.121
+Unexpected IOException with stream: c
+
+# Created at 2022-10-14T22:06:42.121
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:42.121
+Unexpected IOException with stream: n
+
+# Created at 2022-10-14T22:06:42.121
+Unexpected IOException with stream: n
+
+# Created at 2022-10-14T22:06:42.121
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.122
+Unexpected IOException with stream: c
+
+# Created at 2022-10-14T22:06:42.122
+Unexpected IOException with stream: t
+
+# Created at 2022-10-14T22:06:42.122
+Unexpected IOException with stream: i
+
+# Created at 2022-10-14T22:06:42.122
+Unexpected IOException with stream: n
+
+# Created at 2022-10-14T22:06:42.122
+Unexpected IOException with stream: g
+
+# Created at 2022-10-14T22:06:42.123
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.123
+Unexpected IOException with stream: t
+
+# Created at 2022-10-14T22:06:42.123
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:42.123
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.124
+Unexpected IOException with stream: C
+
+# Created at 2022-10-14T22:06:42.124
+Unexpected IOException with stream: h
+
+# Created at 2022-10-14T22:06:42.124
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.125
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:42.125
+Unexpected IOException with stream: m
+
+# Created at 2022-10-14T22:06:42.125
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.125
+Unexpected IOException with stream: ,
+
+# Created at 2022-10-14T22:06:42.125
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.126
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.126
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.126
+Unexpected IOException with stream: t
+
+# Created at 2022-10-14T22:06:42.127
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.127
+Unexpected IOException with stream: y
+
+# Created at 2022-10-14T22:06:42.128
+Unexpected IOException with stream: i
+
+# Created at 2022-10-14T22:06:42.128
+Unexpected IOException with stream: n
+
+# Created at 2022-10-14T22:06:42.128
+Unexpected IOException with stream: g
+
+# Created at 2022-10-14T22:06:42.129
+Unexpected IOException with stream: .
+
+# Created at 2022-10-14T22:06:42.129
+Unexpected IOException with stream: .
+
+# Created at 2022-10-14T22:06:42.129
+Unexpected IOException with stream: .
+
+# Created at 2022-10-14T22:06:42.130
+Unexpected IOException with stream: 
+
+# Created at 2022-10-14T22:06:42.130
+Unexpected IOException with stream: 
+
+
+# Created at 2022-10-14T22:06:42.130
+Unexpected IOException with stream: [
+
+# Created at 2022-10-14T22:06:42.131
+Unexpected IOException with stream: 1
+
+# Created at 2022-10-14T22:06:42.131
+Unexpected IOException with stream: 6
+
+# Created at 2022-10-14T22:06:42.132
+Unexpected IOException with stream: 6
+
+# Created at 2022-10-14T22:06:42.132
+Unexpected IOException with stream: 5
+
+# Created at 2022-10-14T22:06:42.132
+Unexpected IOException with stream: 7
+
+# Created at 2022-10-14T22:06:42.133
+Unexpected IOException with stream: 7
+
+# Created at 2022-10-14T22:06:42.133
+Unexpected IOException with stream: 4
+
+# Created at 2022-10-14T22:06:42.133
+Unexpected IOException with stream: 3
+
+# Created at 2022-10-14T22:06:42.134
+Unexpected IOException with stream: 9
+
+# Created at 2022-10-14T22:06:42.135
+Unexpected IOException with stream: 7
+
+# Created at 2022-10-14T22:06:42.135
+Unexpected IOException with stream: .
+
+# Created at 2022-10-14T22:06:42.135
+Unexpected IOException with stream: 8
+
+# Created at 2022-10-14T22:06:42.136
+Unexpected IOException with stream: 3
+
+# Created at 2022-10-14T22:06:42.136
+Unexpected IOException with stream: 2
+
+# Created at 2022-10-14T22:06:42.137
+Unexpected IOException with stream: ]
+
+# Created at 2022-10-14T22:06:42.137
+Unexpected IOException with stream: [
+
+# Created at 2022-10-14T22:06:42.138
+Unexpected IOException with stream: W
+
+# Created at 2022-10-14T22:06:42.138
+Unexpected IOException with stream: A
+
+# Created at 2022-10-14T22:06:42.139
+Unexpected IOException with stream: R
+
+# Created at 2022-10-14T22:06:42.139
+Unexpected IOException with stream: N
+
+# Created at 2022-10-14T22:06:42.139
+Unexpected IOException with stream: I
+
+# Created at 2022-10-14T22:06:42.140
+Unexpected IOException with stream: N
+
+# Created at 2022-10-14T22:06:42.140
+Unexpected IOException with stream: G
+
+# Created at 2022-10-14T22:06:42.140
+Unexpected IOException with stream: ]
+
+# Created at 2022-10-14T22:06:42.141
+Unexpected IOException with stream: :
+
+# Created at 2022-10-14T22:06:42.141
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.141
+Unexpected IOException with stream: T
+
+# Created at 2022-10-14T22:06:42.141
+Unexpected IOException with stream: i
+
+# Created at 2022-10-14T22:06:42.142
+Unexpected IOException with stream: m
+
+# Created at 2022-10-14T22:06:42.142
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.142
+Unexpected IOException with stream: d
+
+# Created at 2022-10-14T22:06:42.143
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.143
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:42.143
+Unexpected IOException with stream: u
+
+# Created at 2022-10-14T22:06:42.144
+Unexpected IOException with stream: t
+
+# Created at 2022-10-14T22:06:42.144
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.144
+Unexpected IOException with stream: c
+
+# Created at 2022-10-14T22:06:42.145
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:42.145
+Unexpected IOException with stream: n
+
+# Created at 2022-10-14T22:06:42.145
+Unexpected IOException with stream: n
+
+# Created at 2022-10-14T22:06:42.146
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.146
+Unexpected IOException with stream: c
+
+# Created at 2022-10-14T22:06:42.146
+Unexpected IOException with stream: t
+
+# Created at 2022-10-14T22:06:42.147
+Unexpected IOException with stream: i
+
+# Created at 2022-10-14T22:06:42.147
+Unexpected IOException with stream: n
+
+# Created at 2022-10-14T22:06:42.147
+Unexpected IOException with stream: g
+
+# Created at 2022-10-14T22:06:42.148
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.148
+Unexpected IOException with stream: t
+
+# Created at 2022-10-14T22:06:42.148
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:42.149
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.149
+Unexpected IOException with stream: C
+
+# Created at 2022-10-14T22:06:42.149
+Unexpected IOException with stream: h
+
+# Created at 2022-10-14T22:06:42.150
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.150
+Unexpected IOException with stream: o
+
+# Created at 2022-10-14T22:06:42.150
+Unexpected IOException with stream: m
+
+# Created at 2022-10-14T22:06:42.150
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.151
+Unexpected IOException with stream: ,
+
+# Created at 2022-10-14T22:06:42.151
+Unexpected IOException with stream:  
+
+# Created at 2022-10-14T22:06:42.151
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.151
+Unexpected IOException with stream: e
+
+# Created at 2022-10-14T22:06:42.152
+Unexpected IOException with stream: t
+
+# Created at 2022-10-14T22:06:42.152
+Unexpected IOException with stream: r
+
+# Created at 2022-10-14T22:06:42.152
+Unexpected IOException with stream: y
+
+# Created at 2022-10-14T22:06:42.152
+Unexpected IOException with stream: i
+
+# Created at 2022-10-14T22:06:42.152
+Unexpected IOException with stream: n
+
+# Created at 2022-10-14T22:06:42.153
+Unexpected IOException with stream: g
+
+# Created at 2022-10-14T22:06:42.153
+Unexpected IOException with stream: .
+
+# Created at 2022-10-14T22:06:42.153
+Unexpected IOException with stream: .
+
+# Created at 2022-10-14T22:06:42.153
+Unexpected IOException with stream: .
+
+# Created at 2022-10-14T22:06:42.153
+Unexpected IOException with stream: 
+
+# Created at 2022-10-14T22:06:42.154
+Unexpected IOException with stream: 
+
+
+# Created at 2022-10-14T22:06:42.154
+Unexpected IOException: 6,1,parametre kullanimi,TC003 parametre kullaniminda configreader kullanimi(parametre kullanimi),null,null,41682
+
+
+# Created at 2022-10-14T22:06:42.155
+Unexpected IOException: 2,1,parametre kullanimi,parametre kullanimi,null,null,41682
+
+
